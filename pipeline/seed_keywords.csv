@@ -1,0 +1,80 @@
+keyword,intent,category,content_tier,priority,notes
+"small business accountant",transactional,Bookkeeping and Compliance,pillar,10,Core commercial pillar for the whole site
+"limited company accountant",transactional,Limited Company Tax,pillar,10,Core commercial pillar Ltd directors
+"contractor accountant uk",transactional,Limited Company Tax,pillar,9,High-value lead segment via IR35 angle
+"sole trader accountant",transactional,Sole Trader and Self Employment,pillar,9,Entry-level lead segment
+"vat accountant",transactional,VAT and Making Tax Digital,pillar,8,Service-led VAT registration / returns
+"r&d tax credit specialist",transactional,R&D Tax Credits,pillar,9,High-margin specialist service
+"online accountant uk",transactional,Bookkeeping and Compliance,pillar,8,Comparison query for tech-led firms
+"fixed fee accountant uk",transactional,Bookkeeping and Compliance,cluster,7,Pricing-led intent
+"accountant for startup",transactional,Incorporation and Structure,cluster,7,Founder-stage segment
+"making tax digital accountant",transactional,VAT and Making Tax Digital,cluster,8,Driven by MTD ITSA April 2026 rollout
+"freelancer accountant uk",transactional,Sole Trader and Self Employment,cluster,7,Adjacent to contractor segment
+"accountant for ecommerce business",transactional,VAT and Making Tax Digital,cluster,7,Multi-jurisdiction VAT angle
+"accountant for property investor uk",transactional,Limited Company Tax,cluster,6,Cross-sell to Property site
+"payroll services small business",transactional,Payroll and PAYE,cluster,7,Recurring revenue service
+"company formation accountant",transactional,Incorporation and Structure,cluster,7,Top-of-funnel for new Ltds
+"self assessment accountant",transactional,Sole Trader and Self Employment,cluster,7,Seasonal Jan-Feb spike
+"corporation tax accountant",transactional,Corporation Tax,cluster,7,Mid-funnel Ltd directors
+"xero accountant uk",transactional,Bookkeeping and Compliance,cluster,6,Software-led specialism
+"quickbooks accountant uk",transactional,Bookkeeping and Compliance,cluster,5,Software-led adjacency
+"freeagent accountant",transactional,Bookkeeping and Compliance,cluster,5,Contractor-focused software
+"r&d tax claim software companies",transactional,R&D Tax Credits,cluster,7,Specific niche, high value
+"vat registration help",transactional,VAT and Making Tax Digital,cluster,6,Threshold-driven service
+"director payroll service",transactional,Director Pay and Dividends,cluster,6,Annual scheme for Ltd directors
+"badr accountant",transactional,Exit and Capital Gains,cluster,7,High-value exit planning
+"cgt accountant uk",transactional,Exit and Capital Gains,cluster,6,Asset disposal advice
+"ir35 contract review service",transactional,Limited Company Tax,cluster,7,One-off compliance service
+"cis accountant uk",transactional,Payroll and PAYE,cluster,5,Construction sub-segment
+"mtd software for sole traders",transactional,VAT and Making Tax Digital,cluster,7,MTD ITSA driven
+"company secretarial services uk",transactional,Bookkeeping and Compliance,supporting,4,Compliance add-on
+"trust accountant uk",transactional,Exit and Capital Gains,supporting,4,Niche IHT planning
+"limited company vs sole trader",informational,Incorporation and Structure,pillar,10,Top-of-funnel decision pillar
+"how to register a limited company uk",informational,Incorporation and Structure,pillar,9,Action-led informational pillar
+"when to register for vat",informational,VAT and Making Tax Digital,pillar,9,Threshold-driven cornerstone
+"how does corporation tax work",informational,Corporation Tax,pillar,9,Foundational pillar Ltd directors
+"how to pay yourself from a limited company",informational,Director Pay and Dividends,pillar,10,Highest commercial intent informational
+"r&d tax credits explained",informational,R&D Tax Credits,pillar,9,Pillar feeding R&D service
+"making tax digital for income tax",informational,VAT and Making Tax Digital,pillar,9,Pre-April 2026 demand spike
+"ir35 explained",informational,Limited Company Tax,pillar,9,Contractor cornerstone
+"business asset disposal relief explained",informational,Exit and Capital Gains,pillar,8,Bridges to exit planning service
+"self assessment tax return guide",informational,Sole Trader and Self Employment,pillar,9,Seasonal high-volume
+"how to register as self employed uk",informational,Sole Trader and Self Employment,cluster,8,Top-of-funnel action query
+"sole trader vs limited company tax calculator",informational,Incorporation and Structure,cluster,8,High intent comparison
+"vat flat rate scheme explained",informational,VAT and Making Tax Digital,cluster,7,Scheme-specific
+"how much corporation tax do i pay",informational,Corporation Tax,cluster,7,Question-led pillar feeder
+"dividend tax rates 2025 26",informational,Director Pay and Dividends,cluster,8,Annual rate-led demand
+"directors loan account explained",informational,Director Pay and Dividends,cluster,7,S455 angle high-value
+"how to claim r&d tax credits",informational,R&D Tax Credits,cluster,8,Action-led R&D query
+"r&d tax credit eligibility checklist",informational,R&D Tax Credits,cluster,7,Top-of-funnel R&D
+"capital gains tax rates 2025 26",informational,Exit and Capital Gains,cluster,7,Annual rate-led demand
+"vat threshold 2025 26",informational,VAT and Making Tax Digital,cluster,7,Threshold reference query
+"how to file a confirmation statement",informational,Bookkeeping and Compliance,cluster,6,Companies House compliance
+"how to file company accounts uk",informational,Bookkeeping and Compliance,cluster,7,Action-led compliance
+"payroll for one employee uk",informational,Payroll and PAYE,cluster,6,Director-only payroll
+"how to set up paye for new business",informational,Payroll and PAYE,cluster,6,Action-led setup
+"hmrc penalties self assessment",informational,Sole Trader and Self Employment,cluster,6,Compliance-driven
+"how to close a limited company",informational,Exit and Capital Gains,cluster,7,Striking-off vs MVL angle
+"members voluntary liquidation explained",informational,Exit and Capital Gains,cluster,6,Exit route with CGT angle
+"can i claim home office expenses limited company",informational,Limited Company Tax,cluster,7,Specific deduction query
+"allowable expenses sole trader",informational,Sole Trader and Self Employment,cluster,7,Deductions checklist
+"how to switch from sole trader to limited company",informational,Incorporation and Structure,cluster,7,Transition decision
+"can i claim mileage limited company director",informational,Limited Company Tax,supporting,6,Specific deduction
+"trivial benefits rules uk",informational,Director Pay and Dividends,supporting,5,£50 gift rules
+"annual investment allowance explained",informational,Corporation Tax,supporting,6,Capital allowance angle
+"flat rate vat vs standard vat",informational,VAT and Making Tax Digital,supporting,6,Scheme comparison
+"reverse charge vat construction",informational,VAT and Making Tax Digital,supporting,5,CIS adjacency
+"how to register for paye",informational,Payroll and PAYE,supporting,6,Action-led
+"p11d benefits in kind explained",informational,Payroll and PAYE,supporting,5,Year-end compliance
+"national insurance for directors",informational,Director Pay and Dividends,supporting,6,Annual earnings basis
+"corporation tax marginal relief",informational,Corporation Tax,supporting,6,£50k-£250k profit band
+"associated companies corporation tax",informational,Corporation Tax,supporting,5,Group structure rules
+"holding company structure uk tax",informational,Incorporation and Structure,supporting,6,Group structure tax planning
+"family investment company uk",informational,Incorporation and Structure,supporting,6,High-net-worth structuring
+"cash basis vs accruals sole trader",informational,Sole Trader and Self Employment,supporting,5,Method choice
+"how to claim use of home as office",informational,Sole Trader and Self Employment,supporting,5,£6 simplified vs actual
+"r&d tax credits for software companies",informational,R&D Tax Credits,supporting,7,High-value sub-niche
+"r&d tax credits for ai startups",informational,R&D Tax Credits,supporting,6,Emerging sub-niche
+"creative industry tax reliefs uk",informational,R&D Tax Credits,supporting,5,Adjacent reliefs
+"badr 2026 rate change",informational,Exit and Capital Gains,supporting,7,April 2026 rise to 18%
+"mtd itsa april 2026 deadline",informational,VAT and Making Tax Digital,supporting,8,Time-sensitive demand

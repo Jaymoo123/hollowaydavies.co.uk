@@ -1,0 +1,215 @@
+{
+  "niche_id": "generalist",
+  "display_name": "Holloway Davies",
+  "legal_name": "Holloway Davies Ltd",
+  "domain": "www.hollowaydavies.co.uk",
+  "tagline": "Chartered accountants for UK businesses of every shape",
+  "description": "Holloway Davies. ICAEW chartered accountants for UK limited companies, contractors, sole traders and partnerships. Corporation tax, VAT, payroll, R&D credits, MTD, and exit planning. National coverage, fixed fees.",
+  "brand": {
+    "primary_color": "#f97316",
+    "logo_path": "/brand/primary-logo.png",
+    "publisher_logo_url": "/brand/icon-alt.png"
+  },
+  "contact": {
+    "email": "hello@hollowaydavies.co.uk",
+    "phone": "+44 20 3026 0000"
+  },
+  "navigation": [
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Calculators",
+      "href": "/calculators"
+    },
+    {
+      "label": "Resources",
+      "href": "/fundamentals",
+      "children": [
+        {
+          "label": "Guides",
+          "href": "/fundamentals",
+          "description": "Plain-English guides on UK business tax and accounting"
+        },
+        {
+          "label": "Blog",
+          "href": "/blog",
+          "description": "Practical articles for UK business owners"
+        },
+        {
+          "label": "Calculators",
+          "href": "/calculators",
+          "description": "Free salary, tax, R&D and VAT calculators using 2025/26 rates"
+        },
+        {
+          "label": "Locations",
+          "href": "/locations",
+          "description": "Coverage across the UK"
+        },
+        {
+          "label": "R&D Tax Credits",
+          "href": "/r-and-d-credits",
+          "description": "Specialist R&D claims for innovative UK businesses"
+        },
+        {
+          "label": "Glossary",
+          "href": "/glossary",
+          "description": "Plain-English definitions of UK tax and accounting terms"
+        }
+      ]
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "footer_links": [
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Calculators",
+      "href": "/calculators"
+    },
+    {
+      "label": "Guides",
+      "href": "/fundamentals"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Locations",
+      "href": "/locations"
+    },
+    {
+      "label": "Incorporation",
+      "href": "/incorporation"
+    },
+    {
+      "label": "R&D tax credits",
+      "href": "/r-and-d-credits"
+    },
+    {
+      "label": "Glossary",
+      "href": "/glossary"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    },
+    {
+      "label": "Privacy policy",
+      "href": "/privacy-policy"
+    },
+    {
+      "label": "Terms",
+      "href": "/terms"
+    },
+    {
+      "label": "Cookie policy",
+      "href": "/cookie-policy"
+    }
+  ],
+  "locations": [],
+  "content_strategy": {
+    "audience": "UK limited company directors, contractors, sole traders and partnership owners across all sectors",
+    "categories": [
+      "Limited Company Tax",
+      "Sole Trader and Self Employment",
+      "VAT and Making Tax Digital",
+      "Payroll and PAYE",
+      "Corporation Tax",
+      "R&D Tax Credits",
+      "Incorporation and Structure",
+      "Exit and Capital Gains",
+      "Bookkeeping and Compliance",
+      "Director Pay and Dividends"
+    ],
+    "supabase_table": "blog_topics_generalist",
+    "source_identifier": "general"
+  },
+  "seo": {
+    "locale": "en-GB",
+    "organization_type": "ProfessionalService",
+    "service_areas": [
+      "London",
+      "Manchester",
+      "Birmingham",
+      "Leeds",
+      "Bristol",
+      "Glasgow",
+      "Edinburgh",
+      "Liverpool",
+      "Sheffield",
+      "Newcastle"
+    ],
+    "google_analytics_id": "",
+    "search_console_verification": {
+      "google": "",
+      "bing": "",
+      "yandex": "",
+      "naver": "",
+      "pinterest": ""
+    },
+    "theme_color": "#f97316"
+  },
+  "lead_form": {
+    "role_label": "My business is a...",
+    "role_options": [
+      {
+        "value": "Limited company",
+        "label": "Limited company"
+      },
+      {
+        "value": "Sole trader",
+        "label": "Sole trader"
+      },
+      {
+        "value": "Contractor or freelancer",
+        "label": "Contractor or freelancer"
+      },
+      {
+        "value": "Partnership",
+        "label": "Partnership or LLP"
+      },
+      {
+        "value": "Just starting out",
+        "label": "Just starting out"
+      },
+      {
+        "value": "Other",
+        "label": "Other"
+      }
+    ],
+    "placeholders": {
+      "name": "Alex Smith",
+      "email": "alex@yourbusiness.com",
+      "phone": "07700 000000",
+      "message": "e.g. I need help with my corporation tax return, or I'm thinking about incorporating..."
+    }
+  },
+  "cta": {
+    "sticky_primary": "Free business finance health check",
+    "sticky_secondary": "60-min review with an ICAEW qualified accountant. No obligation.",
+    "sticky_button": "Claim free check"
+  },
+  "blog": {
+    "cta_heading": "Need an accountant who actually picks up the phone?",
+    "cta_body": "We work with UK businesses of every shape. Book a free call to talk through your tax position, structure or any finance question. No jargon, no hard sell.",
+    "cta_button": "Book a free call"
+  },
+  "shared_components_version": "1.0.0",
+  "last_sync": null
+}

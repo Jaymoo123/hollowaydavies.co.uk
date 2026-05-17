@@ -1,0 +1,278 @@
+/* Tailwind source("..") scans from src/ relative to this file */
+@import "tailwindcss" source("..");
+@import "tw-animate-css";
+
+/* ============================================================
+   DESIGN SYSTEM
+   Modern, tech-forward. Off-white surfaces, deep ink type, one
+   bold orange accent. Geist Sans for type, Geist Mono for figures.
+   Typographic-first, sparing photography, generous whitespace.
+   ============================================================ */
+
+:root {
+  /* Neutral surface and ink */
+  --surface: #fafaf7;        /* warm off-white, default body bg */
+  --surface-elevated: #ffffff;
+  --ink: #0a0a0a;
+  --ink-soft: #525252;
+  --ink-whisper: #a3a3a3;
+  --hairline: #e5e5e5;
+
+  /* Brand accent (orange family) */
+  --accent: #f97316;          /* orange-500 */
+  --accent-strong: #ea580c;   /* orange-600, hover */
+  --accent-whisper: #fff7ed;  /* orange-50, subtle bg tint */
+
+  /* Status */
+  --destructive: #dc2626;
+  --success: #10b981;
+
+  /* shadcn / Tailwind v4 semantic tokens. Brand maps:
+     --primary = accent orange, --background = off-white surface. */
+  --background: var(--surface);
+  --foreground: var(--ink);
+  --card: var(--surface-elevated);
+  --card-foreground: var(--ink);
+  --popover: var(--surface-elevated);
+  --popover-foreground: var(--ink);
+  --primary: var(--accent);
+  --primary-foreground: #ffffff;
+  --secondary: #f1f5f9;
+  --secondary-foreground: var(--ink);
+  --muted-surface: #f1f5f9;
+  --muted-foreground: var(--ink-soft);
+  --accent-foreground: #ffffff;
+  --destructive-foreground: #ffffff;
+  --border: var(--hairline);
+  --input: var(--hairline);
+  --ring: var(--accent);
+  --radius: 0rem;
+
+  /* Legacy alias kept for any --muted text-colour callers carried over
+     from the template; safer to keep than to break those imports. */
+  --muted: var(--ink-soft);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted-surface);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius));
+  --radius-md: calc(var(--radius));
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius));
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100dvh;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-feature-settings: "ss01" on, "cv11" on;
+}
+
+/* ============================================================
+   TYPOGRAPHY
+   Headings: tight tracking, big weight contrast against body.
+   ============================================================ */
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+  }
+
+  h1 {
+    letter-spacing: -0.03em;
+    font-weight: 600;
+  }
+}
+
+/* Geist Mono utility for stat figures, eyebrows, dates */
+.font-mono,
+.font-geist-mono {
+  font-family: var(--font-geist-mono), ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+/* Eyebrow label: small uppercase mono, accent colour */
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-geist-mono), ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+}
+
+/* Hairline horizontal rule */
+.hairline {
+  border-top: 1px solid var(--hairline);
+}
+
+/* ============================================================
+   BLOG PROSE
+   ============================================================ */
+
+.prose-blog {
+  max-width: 65ch;
+  color: var(--ink);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+
+.prose-blog h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+
+.prose-blog h3 {
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.015em;
+}
+
+.prose-blog p {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  color: var(--ink-soft);
+}
+
+.prose-blog a {
+  color: var(--accent-strong);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.15s;
+}
+
+.prose-blog a:hover {
+  color: var(--accent);
+}
+
+.prose-blog ul,
+.prose-blog ol {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+  color: var(--ink-soft);
+}
+
+.prose-blog li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose-blog strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.prose-blog table {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.prose-blog th {
+  background: transparent;
+  color: var(--ink);
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.prose-blog td {
+  padding: 0.875rem 1rem;
+  border-top: 1px solid var(--hairline);
+  color: var(--ink-soft);
+}
+
+/* ============================================================
+   FORM ELEMENTS
+   ============================================================ */
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+button:disabled,
+input:disabled,
+select:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

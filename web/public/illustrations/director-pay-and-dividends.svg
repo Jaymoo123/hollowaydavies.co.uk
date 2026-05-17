@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#fafaf7"/>
+
+  <!-- Salary vs dividends split -->
+  <circle cx="300" cy="200" r="100" fill="#0a0a0a"/>
+  <path d="M 300 100 A 100 100 0 0 1 386 250 L 300 200 Z" fill="#f97316"/>
+  <path d="M 386 250 A 100 100 0 0 1 300 300 L 300 200 Z" fill="#fed7aa"/>
+  <text x="220" y="195" font-family="monospace" font-size="14" font-weight="700" fill="white">Salary</text>
+  <text x="220" y="215" font-family="monospace" font-size="11" fill="white">£12,570</text>
+  <text x="360" y="200" font-family="monospace" font-size="11" font-weight="700" fill="#0a0a0a">Div</text>
+  <text x="360" y="215" font-family="monospace" font-size="10" fill="#0a0a0a">8.75%</text>
+
+</svg>

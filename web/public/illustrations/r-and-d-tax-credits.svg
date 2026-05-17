@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#fafaf7"/>
+
+  <!-- Lightbulb + flask -->
+  <circle cx="220" cy="180" r="60" fill="#fed7aa" stroke="#0a0a0a" stroke-width="2"/>
+  <rect x="200" y="230" width="40" height="20" fill="#0a0a0a"/>
+  <rect x="208" y="250" width="24" height="10" fill="#525252"/>
+  <line x1="220" y1="100" x2="220" y2="110" stroke="#0a0a0a" stroke-width="3"/>
+  <line x1="160" y1="180" x2="150" y2="180" stroke="#0a0a0a" stroke-width="3"/>
+  <line x1="280" y1="180" x2="290" y2="180" stroke="#0a0a0a" stroke-width="3"/>
+  <line x1="175" y1="135" x2="167" y2="127" stroke="#0a0a0a" stroke-width="3"/>
+  <line x1="265" y1="135" x2="273" y2="127" stroke="#0a0a0a" stroke-width="3"/>
+  <!-- Flask -->
+  <path d="M 380 140 L 380 200 L 360 290 L 460 290 L 440 200 L 440 140 Z" fill="white" stroke="#0a0a0a" stroke-width="2"/>
+  <path d="M 366 260 L 454 260 L 460 290 L 360 290 Z" fill="#f97316"/>
+  <line x1="380" y1="140" x2="440" y2="140" stroke="#0a0a0a" stroke-width="3"/>
+
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#fafaf7"/>
+
+  <!-- Single-figure desk silhouette -->
+  <rect x="120" y="260" width="360" height="20" fill="#0a0a0a"/>
+  <rect x="220" y="160" width="160" height="100" fill="white" stroke="#0a0a0a" stroke-width="2"/>
+  <line x1="240" y1="180" x2="360" y2="180" stroke="#525252" stroke-width="1.5"/>
+  <line x1="240" y1="200" x2="360" y2="200" stroke="#525252" stroke-width="1.5"/>
+  <line x1="240" y1="220" x2="340" y2="220" stroke="#525252" stroke-width="1.5"/>
+  <line x1="240" y1="240" x2="360" y2="240" stroke="#525252" stroke-width="1.5"/>
+  <circle cx="160" cy="200" r="40" fill="#f97316"/>
+  <rect x="140" y="240" width="40" height="60" fill="#0a0a0a"/>
+
+</svg>

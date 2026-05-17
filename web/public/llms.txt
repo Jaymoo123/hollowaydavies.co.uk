@@ -1,0 +1,24 @@
+# UK Business Accountants
+
+> Specialist UK accountants for limited companies, contractors, sole traders and partnerships. Corporation tax, VAT, payroll, R&D credits, MTD, incorporation and exit planning. ICAEW-qualified network, national coverage, fixed fees, 2025/26 UK figures throughout.
+
+## About
+
+UK Business Accountants is a generalist UK accounting practice serving limited company directors, contractors, freelancers, sole traders, and partnerships across the country. Cloud-first delivery (Xero, FreeAgent, QuickBooks), national coverage, ICAEW-qualified network.
+
+## Key Pages
+
+- Homepage: https://www.ukbusinessaccountants.co.uk/
+- Services: https://www.ukbusinessaccountants.co.uk/services
+- Calculators: https://www.ukbusinessaccountants.co.uk/calculators
+- About: https://www.ukbusinessaccountants.co.uk/about
+- Blog: https://www.ukbusinessaccountants.co.uk/blog
+- Contact: https://www.ukbusinessaccountants.co.uk/contact
+- Locations: https://www.ukbusinessaccountants.co.uk/locations
+- Incorporation: https://www.ukbusinessaccountants.co.uk/incorporation
+- R&D Tax Credits: https://www.ukbusinessaccountants.co.uk/r-and-d-credits
+- Free Health Check: https://www.ukbusinessaccountants.co.uk/free-health-check
+
+## Sitemap
+
+https://www.ukbusinessaccountants.co.uk/sitemap.xml

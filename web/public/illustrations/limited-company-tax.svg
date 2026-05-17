@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#fafaf7"/>
+
+  <!-- Document stack representing CT600 + accounts -->
+  <rect x="180" y="120" width="200" height="240" fill="white" stroke="#0a0a0a" stroke-width="2"/>
+  <rect x="200" y="100" width="200" height="240" fill="white" stroke="#0a0a0a" stroke-width="2"/>
+  <rect x="220" y="80" width="200" height="240" fill="white" stroke="#0a0a0a" stroke-width="2"/>
+  <line x1="240" y1="120" x2="400" y2="120" stroke="#525252" stroke-width="1.5"/>
+  <line x1="240" y1="140" x2="400" y2="140" stroke="#525252" stroke-width="1.5"/>
+  <line x1="240" y1="160" x2="380" y2="160" stroke="#525252" stroke-width="1.5"/>
+  <line x1="240" y1="180" x2="400" y2="180" stroke="#525252" stroke-width="1.5"/>
+  <line x1="240" y1="200" x2="380" y2="200" stroke="#525252" stroke-width="1.5"/>
+  <line x1="240" y1="220" x2="400" y2="220" stroke="#525252" stroke-width="1.5"/>
+  <rect x="240" y="240" width="80" height="24" fill="#f97316"/>
+  <text x="280" y="258" text-anchor="middle" font-family="monospace" font-size="14" font-weight="700" fill="white">CT600</text>
+
+</svg>

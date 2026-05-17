@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#fafaf7"/>
+
+  <!-- Stack of payslips -->
+  <rect x="220" y="130" width="160" height="100" fill="white" stroke="#0a0a0a" stroke-width="2"/>
+  <rect x="210" y="150" width="160" height="100" fill="white" stroke="#0a0a0a" stroke-width="2"/>
+  <rect x="200" y="170" width="160" height="100" fill="white" stroke="#0a0a0a" stroke-width="2"/>
+  <line x1="210" y1="190" x2="350" y2="190" stroke="#525252" stroke-width="1.5"/>
+  <line x1="210" y1="210" x2="350" y2="210" stroke="#525252" stroke-width="1.5"/>
+  <line x1="210" y1="230" x2="330" y2="230" stroke="#525252" stroke-width="1.5"/>
+  <rect x="210" y="245" width="50" height="20" fill="#f97316"/>
+  <text x="235" y="259" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="white">PAYE</text>
+  <!-- Coins -->
+  <circle cx="420" cy="280" r="20" fill="#f97316" stroke="#0a0a0a" stroke-width="2"/>
+  <circle cx="450" cy="290" r="20" fill="#fed7aa" stroke="#0a0a0a" stroke-width="2"/>
+  <circle cx="480" cy="280" r="20" fill="#f97316" stroke="#0a0a0a" stroke-width="2"/>
+
+</svg>
