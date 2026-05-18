@@ -16,6 +16,7 @@ import os
 import re
 import sys
 import time
+import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
@@ -37,56 +38,115 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_TS = ROOT / "web" / "src" / "app" / "guides" / "[slug]" / "data.ts"
 
 
-SYSTEM_PROMPT = """You are a senior ICAEW-qualified UK accountant rewriting long-form guides for Holloway Davies, a generalist UK accountancy firm.
+SYSTEM_PROMPT = """You are a senior ICAEW-qualified UK accountant writing long-form guides for Holloway Davies, a generalist UK accountancy firm.
 
-Audience: UK business owners. Limited company directors, contractors, sole traders, partnership owners, and small business owners across every sector. NOT agency founders specifically.
+Audience: UK business owners across every sector. Limited company directors, contractors, sole traders, partnership owners, small business owners.
 
-Your job: take an existing HTML guide and rewrite the TITLE, TEASER, and BODY to remove all "agency founder" / "your agency" framing while preserving:
-  - Every factual detail (rates, thresholds, dates, HMRC form names, deadlines)
-  - The HTML structure (<h2>, <h3>, <p>, <ul>, <li>, <strong>, <table>, etc.)
-  - Roughly the same length (do NOT shorten by more than 15%)
-  - The same conceptual coverage, action-orientation, and depth
-  - The checklist / procedural feel
+CRITICAL CONTEXT, READ CAREFULLY: the user prompt will include TWO existing versions of this guide, one from this site and one from a sister site (Agency Founder Finance). Both are too similar and Google will treat them as cross-domain duplicate content. Your job is to write a NEW Holloway Davies version that is substantively different from BOTH. Keep the facts identical (rates, thresholds, dates, HMRC form names, deadlines, percentages, allowances) but change everything else.
 
-VOICE: Financial Times editorial. Precise, confident, plain English, occasional sharp opinion. UK English (specialise, organise, recognise).
+DIVERGENCE REQUIREMENTS (mandatory):
+1. DIFFERENT TITLE. Avoid mirroring either existing title's phrasing or structure. Use a different framing (a question, a number, a deadline-anchored statement, a contrarian framing, etc.).
+2. DIFFERENT TEASER. New angle, new hook.
+3. DIFFERENT OPENING PARAGRAPH. Do not open with the same scene-setting that either version uses.
+4. DIFFERENT WORKED EXAMPLES. Different industries, different £ figures (all plausible and accurate), different scenarios.
+5. DIFFERENT INDUSTRY ANCHORS. Rotate through: independent retailers, professional services firms, manufacturing SMEs, hospitality, software companies, construction subcontractors, healthcare practices, e-commerce sellers, consultancies, sole-trader trades.
+6. DIFFERENT SECTION HEADINGS where natural. Reorder where it serves the reader. The checklist / procedural feel should stay, but the order of sections may shift.
+7. DIFFERENT SUPPORTING DETAIL. Where the existing versions cite one HMRC form, deadline trap, or worked penalty, cite a different (still real) one.
 
-BANS:
-- NO em-dashes anywhere. Use commas, full stops, parentheses, middle dots.
+PRESERVE EXACTLY:
+- Every numeric fact: rates, thresholds, allowances, deadlines, tax years, HMRC form names, monetary limits.
+- HTML structure tags used: <h2>, <h3>, <p>, <ul>, <li>, <strong>, <table>. Use roughly the same types of elements.
+- Roughly the same total length (within +/- 25%).
+- The procedural / checklist DNA. Readers should still finish with a clear set of actions.
+
+VOICE: Financial Times editorial. Precise, confident, plain English, occasional sharp opinion. UK English (specialise, organise, recognise, behaviour, modelling).
+
+ABSOLUTE BANS:
+- NO em-dashes or en-dashes anywhere. Use commas, full stops, parentheses, middle dots, or restructure.
 - NO "agency founder" / "agency founders" / "for agency founders" / "your agency" framing.
-- "Agency" as a noun in a sector list (a marketing agency, an advertising agency) is fine. The ban is on the AUDIENCE framing.
-- Replace agency-specific examples with generalist UK business examples (limited company directors, contractors, sole traders, food manufacturers, software companies, consultancies, retailers, partnerships, etc.)
-
-TITLE: should be of the form "The UK [Owner Type or Business] [Topic] Checklist/Guide" without "Agency Founder's".
-TEASER: similar reframing.
-BODY: rewrite all instances of agency-targeted framing.
+- "Agency" as a noun in a sector list (a marketing agency, an advertising agency) is acceptable. The ban is on the AUDIENCE framing.
+- NO copy-pasted phrases from either of the existing versions longer than 6 consecutive words.
 
 OUTPUT FORMAT: a single JSON object with exactly these three keys:
 {
   "title": "<new title>",
   "teaser": "<new teaser, ~50-80 words>",
-  "body": "<new HTML body, starts with <p>, same structure as original>"
+  "body": "<new HTML body>"
 }
 No markdown fences, no commentary, just the JSON.
 """
 
 
-def call_deepseek(client: DeepSeekClient, entry: dict) -> dict | None:
+AFF_BASE = "https://www.agencyfounderfinance.co.uk"
+
+
+def fetch_aff_guide(slug: str, timeout: int = 20) -> str | None:
+    """Fetch the parallel guide from Agency Founder Finance and return its
+    raw HTML body. Returns None on any error."""
+    url = f"{AFF_BASE}/guides/{slug}"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "hd-rewrite-bot/1.0"})
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            html = resp.read().decode("utf-8", errors="replace")
+    except Exception:
+        return None
+    h1_end = html.lower().find("</h1>")
+    if h1_end == -1:
+        return None
+    tail = html[h1_end:]
+    # Pull every relevant content tag in order, up to first <footer>
+    foot = tail.lower().find("<footer")
+    if foot != -1:
+        tail = tail[:foot]
+    blocks = re.findall(
+        r"<(?:h2|h3|p|ul|ol)[^>]*>.*?</(?:h2|h3|p|ul|ol)>",
+        tail,
+        flags=re.DOTALL | re.IGNORECASE,
+    )
+    if not blocks:
+        return None
+    return "\n".join(blocks)
+
+
+_WORD_RE = re.compile(r"[a-z]{4,}")
+_STOP = {
+    "your", "this", "that", "from", "with", "have", "will", "they", "their",
+    "than", "when", "what", "which", "into", "more", "less", "most", "much",
+    "such", "also", "been", "were", "where", "while", "would", "could",
+    "should", "about", "after", "before", "between", "because", "through",
+}
+
+
+def _vocab(text: str) -> set[str]:
+    cleaned = re.sub(r"<[^>]+>", " ", text).lower()
+    return {w for w in _WORD_RE.findall(cleaned) if w not in _STOP}
+
+
+def call_deepseek(client: DeepSeekClient, entry: dict, aff_body: str | None) -> dict | None:
+    aff_block = (
+        f"\nAgency Founder Finance version (do NOT replicate its structure, examples or wording):\n{aff_body}\n"
+        if aff_body
+        else ""
+    )
     user_prompt = f"""Current title: {entry['title']}
 Current teaser: {entry['teaser']}
 Current category: {entry['category']}
 
-Current body (HTML):
+Holloway Davies current body (also too similar to the AFF version, do not replicate):
 {entry['body']}
-
-Return the rewritten JSON object now."""
+{aff_block}
+Write a NEW Holloway Davies version following every divergence rule. Return the JSON object now."""
     raw = client.generate_creative(
         prompt=user_prompt,
         system=SYSTEM_PROMPT,
-        temperature=0.55,
+        temperature=0.75,
         max_tokens=6000,
     )
     raw = re.sub(r"^```(?:json)?\s*", "", raw.strip())
     raw = re.sub(r"\s*```$", "", raw.strip())
+    # Strip any stray em/en-dashes from the JSON string content too.
+    raw = raw.replace(" — ", ", ").replace(" – ", ", ")
+    raw = raw.replace("—", ", ").replace("–", ", ")
     try:
         return json.loads(raw)
     except json.JSONDecodeError as e:
@@ -97,6 +157,7 @@ Return the rewritten JSON object now."""
 
 OUTPUT_BANNED = (
     "—",
+    "–",
     "agency founder",
     "agency founders",
     "for agency founders",
@@ -104,7 +165,15 @@ OUTPUT_BANNED = (
 )
 
 
-def validate(slug: str, original: dict, new: dict) -> tuple[bool, str]:
+AFF_OVERLAP_MAX = 0.55
+
+
+def validate(
+    slug: str,
+    original: dict,
+    new: dict,
+    aff_body: str | None,
+) -> tuple[bool, str]:
     for k in ("title", "teaser", "body"):
         if k not in new:
             return False, f"missing key: {k}"
@@ -116,6 +185,14 @@ def validate(slug: str, original: dict, new: dict) -> tuple[bool, str]:
             return False, f"banned string: {b!r}"
     if len(new["body"]) < 0.6 * len(original["body"]):
         return False, f"body too short: {len(new['body'])} vs original {len(original['body'])}"
+    if aff_body:
+        new_v = _vocab(new["body"])
+        aff_v = _vocab(aff_body)
+        if not new_v:
+            return False, "no distinctive words in output body"
+        overlap = len(new_v & aff_v) / len(new_v)
+        if overlap > AFF_OVERLAP_MAX:
+            return False, f"AFF word overlap {overlap:.0%} > {AFF_OVERLAP_MAX:.0%}"
     return True, ""
 
 
@@ -149,19 +226,22 @@ def load_entries() -> list[dict]:
     return out
 
 
-def rewrite_one(entry: dict) -> dict | None:
+def rewrite_one(entry: dict, use_aff_guard: bool = True) -> dict | None:
     client = DeepSeekClient(api_key=DEEPSEEK_API_KEY)
     slug = entry["slug"]
+    aff_body = fetch_aff_guide(slug) if use_aff_guard else None
+    if use_aff_guard and aff_body is None:
+        print(f"  [{slug:>32}]  no AFF reference fetched, proceeding without overlap guard")
     t0 = time.time()
     for attempt in range(1, 4):
         try:
-            new = call_deepseek(client, entry)
+            new = call_deepseek(client, entry, aff_body)
         except Exception as e:
             print(f"  [{slug:>32}]  DeepSeek error: {e}")
             continue
         if new is None:
             continue
-        ok, msg = validate(slug, entry, new)
+        ok, msg = validate(slug, entry, new, aff_body)
         if ok:
             elapsed = time.time() - t0
             print(f"  [{slug:>32}]  {elapsed:>5.1f}s  OK  (body {len(entry['body'])} -> {len(new['body'])} chars)")
@@ -175,6 +255,11 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--only")
     parser.add_argument("--workers", type=int, default=4)
+    parser.add_argument(
+        "--no-aff-guard",
+        action="store_true",
+        help="skip AFF fetch + word-overlap rejection",
+    )
     args = parser.parse_args()
 
     entries = load_entries()
@@ -188,9 +273,10 @@ def main():
     print(f"Rewriting {len(targets)} guides (workers={args.workers})...")
     print()
 
+    use_aff_guard = not args.no_aff_guard
     rewritten: dict[str, dict] = {}
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = {pool.submit(rewrite_one, e): e for e in targets}
+        futures = {pool.submit(rewrite_one, e, use_aff_guard): e for e in targets}
         for fut in as_completed(futures):
             e = futures[fut]
             r = fut.result()

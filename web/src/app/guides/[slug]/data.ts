@@ -11,60 +11,56 @@ export type Guide = {
 export const GUIDES: Record<string, Guide> = {
   "tax-year-end-checklist": {
     slug: "tax-year-end-checklist",
-    title: "The UK Business Owner's Tax Year-End Checklist 2025/26",
-    teaser: "23 actions to take before 5 April 2026 to optimise your tax position. Covers salary/dividend timing, pension contributions, BADR planning, dividend declarations, and R&D claim preparation for limited company directors, contractors, and sole traders.",
+    title: "5 April 2026 is closer than you think: 23 tax moves every UK business owner must make now",
+    teaser: "The 2025/26 tax year ends on 5 April 2026. Miss the deadlines and you lose allowances, trigger penalties, and pay more tax than you need to. This checklist covers salary and dividend timing, pension contributions, capital purchases, director's loan account traps, R&D claim preparation, and exit planning. Written for limited company directors, sole traders, and partnership owners across all sectors.",
     category: "Year-end planning",
-    body: `<p>This guide provides a complete, deadline-ordered checklist of 23 specific actions for UK business owners to complete before the 5 April 2026 tax year-end. It covers every key decision-salary and dividend timing, pension contributions, capital purchases, director's loan repayments, and exit planning-with exact figures and HMRC form references. It is written for directors and shareholders who run their own limited company and want to minimise their personal and corporate tax bills legally, without relying on generic advice.</p>
+    body: `<p>Every year, the same pattern repeats. Business owners who have spent twelve months building revenue, managing staff, and serving clients arrive at late March with a vague intention to "sort the tax stuff." By then, many of the most valuable planning opportunities have already closed. The 5 April 2026 deadline is not a suggestion. It is a hard cut-off. Miss it and you lose allowances that cannot be carried forward, you pay more tax than the law requires, and you spend the following year chasing problems that could have been avoided.</p>
+<p>This guide is a deadline-anchored checklist of 23 specific actions. It is not generic advice. It is a set of instructions, with exact figures, HMRC form references, and worked examples, designed to be worked through in the weeks before the tax year ends. Whether you run a limited company, trade as a sole trader, or operate through a partnership, the same principle applies: act now, or pay more later.</p>
 
-<h2>1. Understand your 2025/26 tax position now</h2>
+<h2>1. Establish your baseline: what do your numbers look like today?</h2>
+<p>You cannot plan an efficient tax strategy without knowing where you stand. A quick desktop review of your personal and company finances will reveal the obvious opportunities and the hidden traps.</p>
 
-<p>Before you take any action, you need a clear picture of your current and projected profits, both inside and outside the company. Without this baseline, every decision risks being suboptimal.</p>
-
-<h3>1.1 Calculate your personal taxable income</h3>
+<h3>1.1 Calculate your total personal income for 2025/26</h3>
 <ul>
-<li>Add up all director salary, dividends, and any other income (rental, freelance, savings interest) for the period 6 April 2025 to 5 April 2026.</li>
-<li>Subtract your personal allowance of £12,570 (if your adjusted net income is below £100,000).</li>
-<li>Remember the dividend allowance is now just £500 for 2025/26. Every pound of dividends above that is taxed at your marginal rate.</li>
-<li>Check if you are close to the £100,000 threshold where personal allowance starts to taper away (losing £1 of allowance for every £2 of income above £100k).</li>
+<li>Gather all income sources: director salary, dividends, rental income, freelance earnings, savings interest, and any partnership profits.</li>
+<li>Compare against the personal allowance of £12,570. Remember that this allowance tapers away by £1 for every £2 of adjusted net income above £100,000. At £125,140, the allowance is gone entirely.</li>
+<li>The dividend allowance for 2025/26 is £500. Every pound of dividend income above that is taxed at your marginal dividend rate.</li>
+<li>If your income is close to £100,000, consider whether you can reduce it through pension contributions or charitable donations to preserve your personal allowance.</li>
 </ul>
 
-<h3>1.2 Estimate your company's taxable profit</h3>
+<h3>1.2 Estimate your company's taxable profit for the current period</h3>
 <ul>
-<li>Run a draft profit and loss for the year ending 31 March 2026 or 5 April 2026, depending on your accounting period.</li>
-<li>Remember corporation tax is now 19% on profits up to £50,000, then 25% on profits above £250,000, with marginal relief in between.</li>
-<li>If your company's profits are between £50,000 and £250,000, your effective rate is somewhere between 19% and 25%.</li>
+<li>Run a draft profit and loss for the accounting period ending in 2025/26. Most companies use a 31 March or 5 April year-end.</li>
+<li>Corporation tax rates for 2025/26: 19% on profits up to £50,000, 25% on profits above £250,000, with marginal relief applying between £50,000 and £250,000.</li>
+<li>If your company's profit falls between £50,000 and £250,000, the effective rate is somewhere between 19% and 25%. A contribution to a pension or a capital purchase can bring you below the threshold.</li>
 </ul>
 
-<h3>1.3 Check your director's loan account (DLA)</h3>
+<h3>1.3 Inspect the director's loan account (DLA) immediately</h3>
 <ul>
-<li>Pull a trial balance or ask your bookkeeper for the DLA balance as of the last completed month.</li>
-<li>If you owe the company more than £10,000 at any point in the year, the loan is a benefit in kind-you must report it on a P11D and the company pays Class 1A NIC at 13.8%.</li>
-<li>If the loan is still outstanding 9 months after the year-end (i.e., by 1 January 2027 for a 31 March 2026 year-end), the company must pay S455 tax at 33.75% on the outstanding amount.</li>
-<li>Plan to repay any overdrawn DLA before the year-end if possible, or at least before the 9-month deadline.</li>
+<li>Request a current DLA balance from your bookkeeper or accountant. Do not rely on memory.</li>
+<li>If you owe the company more than £10,000 at any point during the year, the loan is a benefit in kind. You must report it on form P11D, and the company must pay Class 1A NIC at 13.8% on the notional interest.</li>
+<li>If the loan remains outstanding nine months after the year-end (by 1 January 2027 for a 31 March 2026 year-end), the company must pay S455 tax at 33.75% on the outstanding amount. This is a cash flow drain, even though the tax is reclaimable when the loan is repaid.</li>
+<li>Plan to clear the loan before 5 April 2026 if possible. If not, ensure it is repaid before the nine-month deadline.</li>
 </ul>
 
-<h2>2. Salary and dividend timing decisions</h2>
+<h2>2. Salary and dividends: get the mix right</h2>
+<p>The single most effective way to reduce your combined tax and national insurance bill is to choose the right balance between salary and dividends. The 2025/26 figures are known. Use them.</p>
 
-<p>Getting the mix of salary and dividends right is the single most effective way to reduce your combined tax and NI bill. The rules are different for 2025/26, so check the numbers carefully.</p>
-
-<h3>2.1 Set your director's salary for 2025/26</h3>
+<h3>2.1 Set your director's salary for the year</h3>
 <ul>
-<li>The most tax-efficient salary for a director who is also a shareholder is usually the secondary threshold for NI (£9,100 per year for 2025/26) or the qualifying earnings threshold for the state pension (£6,240).</li>
-<li>If you pay yourself £9,100, you avoid employee NI and employer NI, but you still get a qualifying year for state pension purposes.</li>
-<li>If you pay yourself £12,570 (the personal allowance), you pay no income tax but you will incur employer NI on the amount above £9,100.</li>
-<li>For most business owners, the £9,100 salary is optimal, with the rest taken as dividends.</li>
-<li>Process the salary through your payroll software (Xero, FreeAgent, QuickBooks, or BrightPay) before 5 April 2026.</li>
+<li>The most efficient salary for a director-shareholder is usually the secondary threshold for NI: £9,100 per year for 2025/26. At this level, you pay no employee NI and no employer NI, and you still receive a qualifying year for state pension purposes.</li>
+<li>An alternative is to pay £12,570 (the personal allowance). You pay no income tax, but you incur employer NI on the amount above £9,100. For most owner-managed businesses, the £9,100 figure is optimal.</li>
+<li>Process the salary through your payroll software before 5 April 2026. Xero, FreeAgent, QuickBooks, and BrightPay all handle this correctly if the settings are right.</li>
 </ul>
 
-<h3>2.2 Declare dividends before year-end</h3>
+<h3>2.2 Declare dividends before the year-end</h3>
 <ul>
-<li>Dividends are taxed in the tax year they are declared and paid, not when the company's accounts are filed.</li>
-<li>If you want to use this year's dividend allowance (£500) and basic rate band, you must declare and pay the dividend before 5 April 2026.</li>
-<li>Check the company has sufficient distributable reserves (retained profits) before declaring any dividend.</li>
-<li>Prepare a formal dividend voucher for each payment, showing the date, amount, and shareholder name. Keep it in your company records.</li>
+<li>Dividends are taxed in the tax year they are declared and paid, not when the company's accounts are filed. If you want to use the 2025/26 dividend allowance and basic rate band, the dividend must be paid before 5 April 2026.</li>
+<li>Check that the company has sufficient distributable reserves (retained profits) before declaring any dividend. Paying a dividend from capital is illegal.</li>
+<li>Prepare a formal dividend voucher for each payment. It must show the date, the amount, and the shareholder's name. Keep it in the company records.</li>
 </ul>
 
-<h3>2.3 Understand the dividend tax rates for 2025/26</h3>
+<h3>2.3 Dividend tax rates for 2025/26: know your marginal cost</h3>
 <table>
 <thead>
 <tr>
@@ -76,17 +72,17 @@ export const GUIDES: Record<string, Guide> = {
 <tbody>
 <tr>
 <td>Personal allowance</td>
-<td>£0 – £12,570</td>
+<td>£0, £12,570</td>
 <td>0% (but dividend allowance is £500)</td>
 </tr>
 <tr>
 <td>Basic rate</td>
-<td>£12,571 – £50,270</td>
+<td>£12,571, £50,270</td>
 <td>8.75%</td>
 </tr>
 <tr>
 <td>Higher rate</td>
-<td>£50,271 – £125,140</td>
+<td>£50,271, £125,140</td>
 <td>33.75%</td>
 </tr>
 <tr>
@@ -96,56 +92,46 @@ export const GUIDES: Record<string, Guide> = {
 </tr>
 </tbody>
 </table>
-<p>Remember: the first £500 of dividends is tax-free, but dividends above that are taxed at these rates. If you are a higher-rate taxpayer, every extra £1,000 of dividend income costs you £337.50 in tax.</p>
+<p>Remember: the first £500 of dividends is tax-free. Every pound above that is taxed at the rates above. For a higher-rate taxpayer, an extra £10,000 of dividends costs £3,375 in tax.</p>
 
-<h3>2.4 Consider a pre-year-end dividend to use your basic rate band</h3>
+<h3>2.4 Worked example: a manufacturing company director</h3>
+<p>James runs a manufacturing business with his wife Sarah. The company's profit for 2025/26 is £120,000. James takes a salary of £9,100. Sarah is a co-director and takes the same. They have two children and no other income. Their combined personal allowances total £25,140. After salaries, the company has distributable reserves of £101,800. They decide to pay themselves dividends of £41,170 each, bringing each of them to a total income of £50,270 (the higher rate threshold). The first £500 of each dividend is tax-free. The remaining £40,670 is taxed at 8.75%, costing £3,558.63 each. Total personal tax on dividends: £7,117.26. The company pays corporation tax at 19% on £101,800, which is £19,342. Total tax: £26,459. If they had taken the full profit as salary, the tax and NI cost would have been significantly higher.</p>
+
+<h2>3. Pension contributions: the most powerful tax shelter available</h2>
+<p>Pension contributions remain one of the few ways to extract money from your company without triggering an immediate tax charge. The rules for 2025/26 are generous, but only if you act before the deadline.</p>
+
+<h3>3.1 The annual allowance is £60,000</h3>
 <ul>
-<li>If your total income (salary + dividends + other) is below £50,270, you can pay dividends up to that threshold and pay only 8.75% tax on the amount above the £500 allowance.</li>
-<li>If you are already a higher-rate taxpayer, consider whether it is worth paying a dividend now or retaining profits in the company (which will be taxed at 19-25% corporation tax).</li>
-<li>For many business owners, the optimal strategy is to take dividends up to the higher-rate threshold (£50,270) and reinvest the rest in the business or pension.</li>
-</ul>
-
-<h2>3. Pension contributions: the most powerful tax shelter</h2>
-
-<p>Pension contributions remain one of the few ways to get money out of your company tax-free while building personal wealth. The rules for 2025/26 are generous, but you must act before the year-end.</p>
-
-<h3>3.1 The annual allowance (AA) is £60,000</h3>
-<ul>
-<li>You can contribute up to £60,000 into your pension in 2025/26 without triggering a tax charge.</li>
-<li>This includes both your personal contributions and your company's contributions.</li>
-<li>If you have not used your full allowance from the previous three tax years, you may be able to carry forward unused amounts. Check your total pension input for 2022/23, 2023/24, and 2024/25.</li>
+<li>You can contribute up to £60,000 into your pension in 2025/26 without triggering a tax charge. This includes both personal contributions and company contributions.</li>
+<li>If you have not used your full allowance in the previous three tax years (2022/23, 2023/24, and 2024/25), you may be able to carry forward unused amounts. Check your total pension input for those years.</li>
 </ul>
 
 <h3>3.2 Company contributions are corporation tax deductible</h3>
 <ul>
-<li>If your company pays a pension contribution directly to your SIPP or workplace pension, it is an allowable expense for corporation tax.</li>
-<li>This reduces your company's taxable profit, saving 19% or 25% corporation tax.</li>
-<li>You do not pay income tax or NI on the contribution, and the pension grows tax-free.</li>
-<li>For a higher-rate taxpayer, a £60,000 company pension contribution effectively costs the company £60,000 but saves up to £15,000 in corporation tax (at 25%).</li>
+<li>If your company pays a contribution directly to your SIPP or workplace pension, it is an allowable expense for corporation tax. This reduces the company's taxable profit, saving 19% or 25% corporation tax.</li>
+<li>You do not pay income tax or NI on the contribution, and the pension fund grows tax-free.</li>
+<li>For a company paying 25% corporation tax, a £60,000 contribution saves £15,000 in tax. The net cost to the company is £45,000.</li>
 </ul>
 
-<h3>3.3 Personal contributions get tax relief at source</h3>
+<h3>3.3 Personal contributions versus company contributions</h3>
 <ul>
-<li>If you contribute personally, the pension provider adds basic rate tax relief (20%) automatically.</li>
-<li>Higher-rate and additional-rate taxpayers can claim further relief via their Self Assessment (SA100) tax return.</li>
-<li>But for most business owners, company contributions are simpler and more tax-efficient because they avoid NI and reduce corporation tax.</li>
+<li>If you contribute personally, the pension provider adds basic rate tax relief (20%) automatically. Higher-rate and additional-rate taxpayers can claim further relief through their Self Assessment return.</li>
+<li>For most business owners, company contributions are simpler and more tax-efficient because they avoid NI and reduce corporation tax directly.</li>
 </ul>
 
-<h3>3.4 Deadline for pension contributions</h3>
+<h3>3.4 The deadline is absolute</h3>
 <ul>
-<li>For a company contribution to count for the 2025/26 tax year, the payment must be made by the company before 5 April 2026.</li>
+<li>For a company contribution to count for 2025/26, the payment must leave the company bank account before 5 April 2026.</li>
 <li>For a personal contribution, the payment must reach the pension provider by 5 April 2026.</li>
-<li>Start the process now: contact your pension provider, set up a direct debit or BACS payment, and ensure the money leaves your account before the deadline.</li>
+<li>Start the process now. Contact your pension provider, set up the payment, and confirm the funds will arrive in time.</li>
 </ul>
 
-<h2>4. Capital purchases and the Annual Investment Allowance (AIA)</h2>
-
-<p>If your business needs equipment, software, or office improvements, buying before the year-end can reduce your corporation tax bill immediately.</p>
+<h2>4. Capital purchases: use the Annual Investment Allowance before it resets</h2>
+<p>If your business needs equipment, software, or improvements to premises, buying before the year-end can reduce your corporation tax bill immediately.</p>
 
 <h3>4.1 The AIA is £1 million for 2025/26</h3>
 <ul>
-<li>The Annual Investment Allowance allows you to deduct the full cost of most plant and machinery (including computers, office furniture, servers, and software) from your taxable profits in the year of purchase.</li>
-<li>The limit is £1 million, which covers virtually all business purchases.</li>
+<li>The Annual Investment Allowance allows you to deduct the full cost of most plant and machinery from your taxable profits in the year of purchase. The limit is £1 million, which covers virtually all business purchases.</li>
 <li>There is no restriction on the number of items or their individual cost, as long as they are used wholly for business purposes.</li>
 </ul>
 
@@ -153,9 +139,9 @@ export const GUIDES: Record<string, Guide> = {
 <ul>
 <li>Computers, laptops, monitors, and peripherals</li>
 <li>Office furniture and fixtures</li>
-<li>Servers, networking equipment, and cloud infrastructure (if you buy the hardware)</li>
-<li>Software licences that are not cloud-based (most SaaS subscriptions are revenue expenses, not capital)</li>
-<li>Vehicles used for business (but cars have special rules)</li>
+<li>Servers, networking equipment, and cloud infrastructure hardware</li>
+<li>Software licences that are not cloud-based (SaaS subscriptions are typically revenue expenses, not capital)</li>
+<li>Vehicles used for business (but cars have special rules based on CO2 emissions)</li>
 </ul>
 
 <h3>4.3 What does not qualify?</h3>
@@ -165,83 +151,72 @@ export const GUIDES: Record<string, Guide> = {
 <li>Items used partly for private purposes (you can only claim the business proportion)</li>
 </ul>
 
-<h3>4.4 Timing is critical</h3>
-<ul>
-<li>To claim AIA in the 2025/26 tax year, the expenditure must be incurred (i.e., the asset must be delivered and the invoice must be dated) on or before 5 April 2026.</li>
-<li>If you order now but the item arrives in May 2026, it counts for the 2026/27 year.</li>
-<li>Plan your purchases now: if you need new laptops for the team, buy them before April.</li>
-</ul>
+<h3>4.4 Worked example: a software company buying hardware</h3>
+<p>Emma runs a software company with a 31 March 2026 year-end. She needs to replace five developer laptops and a server. The total cost is £18,000. She orders and pays for the equipment on 28 March 2026. The equipment is delivered on 2 April 2026. Because the expenditure was incurred (ordered and paid) in the 2025/26 tax year, she can claim the full £18,000 as an AIA deduction against her company's profits, saving corporation tax at 19%: £3,420.</p>
 
-<h2>5. R&D tax credits: prepare your claim now</h2>
+<h2>5. R&D tax credits: prepare your claim before the year-end</h2>
+<p>If your business develops software, automates processes, or solves technical problems, you may qualify for R&D tax relief. The rules changed significantly for accounting periods starting on or after 1 April 2024. Preparation is essential.</p>
 
-<p>If your business develops software, automates processes, or solves technical problems, you may qualify for R&D tax relief. The rules changed significantly for 2024/25 onwards, so preparation is essential.</p>
-
-<h3>5.1 The merged R&D scheme for 2024/25 onwards</h3>
+<h3>5.1 The merged R&D scheme</h3>
 <ul>
 <li>From 1 April 2024, the old SME and RDEC schemes were merged into a single scheme for accounting periods starting on or after that date.</li>
 <li>For most businesses, the new scheme offers a 20% payable credit (for loss-making companies) or a 15% enhanced expenditure (for profitable companies).</li>
-<li>The rules are stricter: you must identify the technological uncertainty, explain how you tried to overcome it, and provide detailed cost breakdowns.</li>
+<li>The rules are stricter. You must identify the technological uncertainty, explain how you tried to overcome it, and provide detailed cost breakdowns.</li>
 </ul>
 
-<h3>5.2 What qualifies as R&D in a business?</h3>
+<h3>5.2 What qualifies as R&D in a typical business?</h3>
 <ul>
 <li>Developing new software or algorithms that solve a technical problem</li>
-<li>Integrating multiple systems in a novel way (e.g., connecting a CRM, an e-commerce platform, and a custom database)</li>
+<li>Integrating multiple systems in a novel way, for example connecting a CRM, an e-commerce platform, and a custom database</li>
 <li>Automating complex workflows that require significant trial and error</li>
 <li>Improving the performance, security, or scalability of existing systems</li>
 </ul>
 
-<h3>5.3 Actions to take before year-end</h3>
+<h3>5.3 Actions to take before 5 April 2026</h3>
 <ul>
 <li>Identify all projects that involved technical uncertainty and systematic experimentation.</li>
 <li>Gather evidence: project briefs, technical specifications, time records, and notes from development meetings.</li>
 <li>Calculate qualifying costs: staff salaries, subcontractor costs, software licences, and cloud hosting directly related to the R&D.</li>
-<li>If you have not already, appoint an R&D tax specialist or use software (e.g., Catax, Leyton) to prepare the claim.</li>
-<li>The claim is made via the CT600 corporation tax return, so you need the supporting documentation ready before you file.</li>
+<li>If you have not already, appoint an R&D tax specialist or use software to prepare the claim.</li>
+<li>The claim is made via the CT600 corporation tax return. You need the supporting documentation ready before you file.</li>
 </ul>
 
-<h2>6. Director's loan account: repay before the 9-month deadline</h2>
+<h2>6. Director's loan account: the trap that catches the unwary</h2>
+<p>An overdrawn director's loan account is one of the most common and expensive mistakes business owners make. The tax consequences are severe if you do not manage it correctly.</p>
 
-<p>An overdrawn director's loan account is one of the most common traps for business owners. The tax consequences are severe if you do not manage it correctly.</p>
-
-<h3>6.1 The S455 charge</h3>
+<h3>6.1 The S455 charge in detail</h3>
 <ul>
-<li>If you owe your company more than £10,000 at any point in the year, the company must pay S455 tax at 33.75% on the outstanding amount if it is not repaid within 9 months of the year-end.</li>
+<li>If you owe your company more than £10,000 at any point in the year, the company must pay S455 tax at 33.75% on the outstanding amount if it is not repaid within nine months of the year-end.</li>
 <li>For a company with a 31 March 2026 year-end, the repayment deadline is 1 January 2027.</li>
 <li>The S455 tax is repayable to the company once the loan is repaid, but it ties up cash for months or years.</li>
 </ul>
 
-<h3>6.2 How to avoid the S455 charge</h3>
+<h3>6.2 How to avoid the charge</h3>
 <ul>
 <li>Repay the loan before the year-end (5 April 2026) if possible. This avoids the benefit in kind reporting and the S455 risk entirely.</li>
-<li>If you cannot repay before year-end, ensure the loan is repaid before the 9-month deadline (1 January 2027 for a 31 March 2026 year-end).</li>
+<li>If you cannot repay before year-end, ensure the loan is repaid before the nine-month deadline.</li>
 <li>Consider declaring a dividend to cover the loan amount, but only if the company has sufficient distributable reserves.</li>
-<li>If you repay the loan and then withdraw the same amount again shortly after, HMRC may treat this as a "bed and breakfasting" arrangement and ignore the repayment. Wait at least 30 days before taking new funds.</li>
+<li>If you repay the loan and then withdraw the same amount again shortly after, HMRC may treat this as a bed and breakfasting arrangement and ignore the repayment. Wait at least 30 days before taking new funds.</li>
 </ul>
 
-<h3>6.3 Reporting requirements</h3>
-<ul>
-<li>If the loan exceeds £10,000 at any point, you must report it on form P11D (benefit in kind).</li>
-<li>The company pays Class 1A NIC at 13.8% on the notional interest benefit.</li>
-<li>If the loan is written off, the amount becomes a dividend in your hands and is taxed as such.</li>
-</ul>
+<h3>6.3 Worked example: a construction subcontractor</h3>
+<p>Raj runs a construction subcontracting business through his limited company. He took a director's loan of £25,000 in October 2025 to cover personal expenses. His company's year-end is 31 March 2026. He has two options. Option one: repay the full £25,000 before 5 April 2026. He does this by selling some personal investments. The DLA is cleared, no benefit in kind arises, and no S455 tax is due. Option two: he does nothing. The company must report the loan on form P11D, pay Class 1A NIC at 13.8% on the notional interest, and if the loan is not repaid by 1 January 2027, pay S455 tax of £8,437.50 (33.75% of £25,000). That tax is reclaimable when the loan is repaid, but it is a significant cash flow hit.</p>
 
-<h2>7. Business Asset Disposal Relief (BADR): plan if an exit is on the horizon</h2>
-
+<h2>7. Business Asset Disposal Relief: plan now if an exit is on the horizon</h2>
 <p>If you are considering selling your business in the next few years, the decisions you make now can significantly affect your tax bill on exit.</p>
 
 <h3>7.1 BADR basics for 2025/26</h3>
 <ul>
 <li>BADR (formerly Entrepreneurs' Relief) reduces the CGT rate on qualifying gains to 10% on the first £1 million of lifetime gains.</li>
-<li>The lifetime limit is £1 million (it was reduced from £10 million in 2020 and has not changed since).</li>
-<li>For gains above £1 million, the CGT rate is 24% for higher-rate taxpayers (from 2024/25 onwards).</li>
+<li>The lifetime limit is £1 million. It was reduced from £10 million in 2020 and has not changed since.</li>
+<li>For gains above £1 million, the CGT rate is 24% for higher-rate taxpayers from 2024/25 onwards.</li>
 </ul>
 
-<h3>7.2 Qualifying conditions for BADR</h3>
+<h3>7.2 Qualifying conditions</h3>
 <ul>
-<li>You must have been a director or employee of the company for at least 2 years before the sale.</li>
+<li>You must have been a director or employee of the company for at least two years before the sale.</li>
 <li>You must own at least 5% of the ordinary share capital and have at least 5% of the voting rights.</li>
-<li>The company must be a trading company (or the holding company of a trading group) for the 2 years before the sale.</li>
+<li>The company must be a trading company (or the holding company of a trading group) for the two years before the sale.</li>
 <li>If your business has built up significant cash or investment assets, it may be considered non-trading. Keep the trading status clean.</li>
 </ul>
 
@@ -249,20 +224,17 @@ export const GUIDES: Record<string, Guide> = {
 <ul>
 <li>Review your shareholding structure. If you own less than 5%, consider whether you can increase your stake before a sale.</li>
 <li>Ensure the company's activities are predominantly trading. If you have large cash reserves, consider investing them in the business or extracting them as dividends.</li>
-<li>If you are planning to sell within 2 years, start preparing now: clean up the balance sheet, formalise contracts, and ensure all intellectual property is owned by the company.</li>
+<li>If you are planning to sell within two years, start preparing now: clean up the balance sheet, formalise contracts, and ensure all intellectual property is owned by the company.</li>
 <li>Consider using your CGT annual exemption (£3,000 for 2025/26) to sell some shares or assets tax-free this year, if it makes sense strategically.</li>
 </ul>
 
 <h2>8. Use your annual allowances before they expire</h2>
-
-<p>Several tax allowances reset on 6 April 2026. If you do not use them, you lose them.</p>
+<p>Several tax allowances reset on 6 April 2026. If you do not use them, you lose them. There is no carry forward for most of these.</p>
 
 <h3>8.1 ISA allowance: £20,000</h3>
 <ul>
-<li>You can contribute up to £20,000 into an ISA in the 2025/26 tax year.</li>
-<li>This includes cash ISAs, stocks and shares ISAs, and innovative finance ISAs.</li>
-<li>If you have surplus cash, consider maxing out your ISA before 5 April 2026.</li>
-<li>Remember: ISA growth and withdrawals are tax-free.</li>
+<li>You can contribute up to £20,000 into an ISA in the 2025/26 tax year. This includes cash ISAs, stocks and shares ISAs, and innovative finance ISAs.</li>
+<li>If you have surplus cash, consider maxing out your ISA before 5 April 2026. ISA growth and withdrawals are tax-free.</li>
 </ul>
 
 <h3>8.2 CGT annual exemption: £3,000</h3>
@@ -271,28 +243,45 @@ export const GUIDES: Record<string, Guide> = {
 <li>If you have investments or assets that have increased in value, consider selling enough to use the exemption.</li>
 <li>This is particularly useful if you have shares in your business or other companies that you plan to sell eventually.</li>
 <li>You cannot carry forward unused exemption to future years.</li>
-</ul>`,
+</ul>
+
+<h3>8.3 Worked example: a healthcare practice owner</h3>
+<p>Dr Patel owns a healthcare practice. She has a stocks and shares ISA that is already fully subscribed. She also has a portfolio of shares held outside an ISA, which have gained £4,500 in value. She sells enough shares to realise a gain of £3,000, using her full CGT exemption. She pays no tax on that gain. The remaining £1,500 of gain is deferred. She could also consider transferring the shares into an ISA through a bed and ISA arrangement, but the timing must be managed carefully to avoid losing the exemption.</p>
+
+<h2>9. Final checks before 5 April 2026</h2>
+<p>As the deadline approaches, run through this short list to ensure nothing has been missed.</p>
+<ul>
+<li>Confirm that all salary payments for the year have been processed through payroll.</li>
+<li>Check that all dividend vouchers are dated and signed before 5 April 2026.</li>
+<li>Verify that any pension contributions have left the company bank account.</li>
+<li>Ensure that any capital purchases have been ordered and paid for, not just quoted.</li>
+<li>Review the director's loan account balance and plan any necessary repayments.</li>
+<li>Gather all R&D evidence and start preparing the claim.</li>
+<li>Check that your ISA is fully subscribed and that you have used your CGT exemption if appropriate.</li>
+<li>If you are considering an exit, confirm that your shareholding and the company's trading status meet the BADR conditions.</li>
+</ul>
+<p>This checklist is a starting point, not a substitute for professional advice tailored to your specific circumstances. Every business is different, and the optimal strategy depends on your personal tax position, your company's profitability, and your long-term goals. If you are unsure about any of these actions, speak to your accountant before the deadline. The cost of a mistake is almost always higher than the cost of advice.</p>`,
   },
   "switching-accountants-playbook": {
     slug: "switching-accountants-playbook",
-    title: "How to Switch Accountants: The UK Business Owner's 30-Day Playbook",
-    teaser: "A practical 30-day playbook for switching from a generalist accountant to a specialist. Includes the 12-point professional clearance template, the data migration checklist, and the questions to ask before signing with a new firm. Designed for limited company directors, sole traders, and partnerships across all sectors.",
+    title: "Should You Switch Accountants? A 30-Day UK Business Owner's Checklist",
+    teaser: "Changing your accountant can cut costs, improve tax planning, and reduce stress. This guide walks you through the signs you need a change, how to vet a specialist, the exact data to transfer, and a week-by-week timeline to complete the switch in under a month without missing a filing deadline.",
     category: "Switching accountants",
-    body: `<p>This guide is a practical 30-day playbook for UK business owners who have outgrown their current accountant. It covers the specific signs that it’s time to move on, how to evaluate a specialist accountant versus a generalist, the exact professional clearance letter items you need to request, the authorisation codes and forms required (64-8, HMRC online services), a step-by-step data migration process for Xero, FreeAgent, or QuickBooks, how to handle a parallel running period, when to switch your year-end filing, and the critical mistakes to avoid mid-year. Follow this timeline and you’ll complete the switch in under a month without disrupting your business’s tax compliance or cash flow.</p>
+    body: `<p>Every business owner reaches a point where their accountant no longer fits. Maybe the firm has grown too large to give you personal attention. Maybe they never challenge your assumptions about dividend versus salary extraction. Or perhaps you simply cannot get a straight answer on how the 2025/26 dividend allowance of £500 affects your quarterly drawings. This guide is built around a single question: should you switch, and if so, how do you do it cleanly? It covers the warning signs, the vetting process, the professional clearance mechanics, and the data migration steps for Xero, FreeAgent, and QuickBooks. Follow this timeline and you will complete the switch in 30 days without a single late filing penalty.</p>
 
-<h2>Signs You’ve Outgrown Your Current Accountant</h2>
-<p>Most business owners start with a generalist accountant who handles personal tax returns and a few limited company filings. As your business grows, the relationship often breaks down. Here are the specific signs that it’s time to switch:</p>
+<h2>When the Relationship Stops Working</h2>
+<p>Most business owners start with a generalist accountant who handles personal tax returns and a few limited company filings. As your business grows, the relationship often breaks down. Here are the specific signs that it is time to move on:</p>
 <ul>
-  <li><strong>They don’t understand your revenue model.</strong> If your accountant can’t explain how subscription revenue, retainer income, or project-based fees affect your VAT scheme or profit recognition, they’re not equipped for your business.</li>
-  <li><strong>You’re paying for advice you don’t need.</strong> Generalists often push services like payroll for a single director or complex bookkeeping when you could use software like BrightPay or Xero’s payroll module.</li>
-  <li><strong>They’re slow to respond during tax season.</strong> If you’re chasing for P11D submissions or CT600 deadlines, your accountant is overwhelmed.</li>
-  <li><strong>They’ve never mentioned R&D tax credits.</strong> Many businesses qualify for R&D relief under the new 2025/26 rules, but a generalist may not spot it.</li>
-  <li><strong>They don’t use modern software.</strong> If they’re still asking for paper receipts or CSV exports from Xero, they’re not working efficiently.</li>
-  <li><strong>You’re paying more than you should.</strong> A specialist accountant often charges less than a generalist for the same work because they’ve streamlined processes for your industry.</li>
+  <li><strong>They do not understand your revenue model.</strong> If your accountant cannot explain how subscription revenue, retainer income, or project-based fees affect your VAT scheme or profit recognition, they are not equipped for your business.</li>
+  <li><strong>You are paying for services you do not use.</strong> Generalists often bundle payroll for a single director or complex bookkeeping when you could use software like BrightPay or Xero's payroll module.</li>
+  <li><strong>They are slow to respond during tax season.</strong> If you are chasing for P11D submissions or CT600 deadlines, your accountant is overwhelmed.</li>
+  <li><strong>They have never mentioned R&D tax credits.</strong> Many businesses qualify for R&D relief under the new 2025/26 rules, but a generalist may not spot it.</li>
+  <li><strong>They do not use modern software.</strong> If they are still asking for paper receipts or CSV exports from Xero, they are not working efficiently.</li>
+  <li><strong>You are paying more than you should.</strong> A specialist accountant often charges less than a generalist for the same work because they have streamlined processes for your industry.</li>
 </ul>
 
-<h2>Specialist vs Generalist: What to Look For</h2>
-<p>Not all accountants are created equal. Here’s a comparison to help you decide which type fits your business:</p>
+<h2>Generalist versus Specialist: What to Look For</h2>
+<p>Not all accountants are created equal. Here is a comparison to help you decide which type fits your business:</p>
 <table>
   <thead>
     <tr>
@@ -329,8 +318,8 @@ export const GUIDES: Record<string, Guide> = {
     </tr>
     <tr>
       <td>Cost</td>
-      <td>£150–£300 per month for basic compliance</td>
-      <td>£200–£400 per month but includes more proactive advice</td>
+      <td>£150, £300 per month for basic compliance</td>
+      <td>£200, £400 per month but includes more proactive advice</td>
     </tr>
   </tbody>
 </table>
@@ -352,14 +341,14 @@ export const GUIDES: Record<string, Guide> = {
 <p>When you speak to prospective accountants, ask these specific questions:</p>
 <ol>
   <li>How many clients in my sector do you currently serve?</li>
-  <li>What’s your typical response time during the January self-assessment rush?</li>
+  <li>What is your typical response time during the January self-assessment rush?</li>
   <li>Do you handle the CT600 and P11D in-house, or do you outsource?</li>
-  <li>What’s your process for the professional clearance letter? Do you send it, or do I?</li>
+  <li>What is your process for the professional clearance letter? Do you send it, or do I?</li>
   <li>How do you handle data migration from my current software?</li>
   <li>Can you provide three client references from businesses of similar size?</li>
-  <li>What’s your policy on parallel running? Do you require a handover period?</li>
+  <li>What is your policy on parallel running? Do you require a handover period?</li>
   <li>How do you charge for ad-hoc advice outside the monthly retainer?</li>
-  <li>What’s your approach to corporation tax planning for businesses with profits between £50k and £250k?</li>
+  <li>What is your approach to corporation tax planning for businesses with profits between £50k and £250k?</li>
   <li>Do you have experience with the new 2025/26 dividend allowance rules?</li>
 </ol>
 
@@ -368,11 +357,11 @@ export const GUIDES: Record<string, Guide> = {
 
 <h2>Week 2: Initiate the Switch</h2>
 <h3>Send the professional clearance letter</h3>
-<p>Once you’ve chosen a new accountant, they will send a professional clearance letter to your current accountant. This is a formal request for information. Your new accountant should handle this, but you need to authorise it. The letter should request these 12 specific items:</p>
+<p>Once you have chosen a new accountant, they will send a professional clearance letter to your current accountant. This is a formal request for information. Your new accountant should handle this, but you need to authorise it. The letter should request these 12 specific items:</p>
 <ol>
-  <li>Copy of your last three years’ CT600 corporation tax returns</li>
-  <li>Copy of your last three years’ SA100 self-assessment returns (for each director)</li>
-  <li>Copy of your last three years’ P11D forms (if applicable)</li>
+  <li>Copy of your last three years' CT600 corporation tax returns</li>
+  <li>Copy of your last three years' SA100 self-assessment returns (for each director)</li>
+  <li>Copy of your last three years' P11D forms (if applicable)</li>
   <li>Copy of your VAT returns for the last four quarters</li>
   <li>Your VAT registration number and effective date</li>
   <li>Your Corporation Tax UTR (Unique Taxpayer Reference)</li>
@@ -383,25 +372,25 @@ export const GUIDES: Record<string, Guide> = {
   <li>Copy of your last set of statutory accounts (if filed)</li>
   <li>Any outstanding tax liabilities or payment plans</li>
 </ol>
-<p>Your current accountant has 30 days to respond under professional guidelines, but most will reply within a week if you’ve paid your fees.</p>
+<p>Your current accountant has 30 days to respond under professional guidelines, but most will reply within a week if you have paid your fees.</p>
 
 <h3>Gather authorisation codes</h3>
-<p>You’ll need these codes to transfer control of your HMRC accounts:</p>
+<p>You will need these codes to transfer control of your HMRC accounts:</p>
 <ul>
-  <li><strong>Government Gateway user ID and password</strong> – for your company’s HMRC online services</li>
-  <li><strong>64-8 form</strong> – this authorises your new accountant to act on your behalf for all HMRC matters. Your new accountant will usually send this digitally.</li>
-  <li><strong>VAT authorisation</strong> – if you’re on the VAT scheme, you’ll need to revoke your old accountant’s access and grant new access via HMRC’s online services.</li>
-  <li><strong>PAYE authorisation</strong> – use form P32 to transfer payroll responsibilities, or do it through the PAYE online service.</li>
-  <li><strong>Corporation Tax authorisation</strong> – this is handled through the 64-8 form as well.</li>
+  <li><strong>Government Gateway user ID and password</strong>, for your company's HMRC online services</li>
+  <li><strong>64-8 form</strong>, this authorises your new accountant to act on your behalf for all HMRC matters. Your new accountant will usually send this digitally.</li>
+  <li><strong>VAT authorisation</strong>, if you are on the VAT scheme, you will need to revoke your old accountant's access and grant new access via HMRC's online services.</li>
+  <li><strong>PAYE authorisation</strong>, use form P32 to transfer payroll responsibilities, or do it through the PAYE online service.</li>
+  <li><strong>Corporation Tax authorisation</strong>, this is handled through the 64-8 form as well.</li>
 </ul>
-<p>If you’ve lost your Government Gateway credentials, you’ll need to reset them through HMRC’s online portal. This can take a few days, so start early.</p>
+<p>If you have lost your Government Gateway credentials, you will need to reset them through HMRC's online portal. This can take a few days, so start early.</p>
 
 <h2>Week 3: Data Migration</h2>
 <h3>Back up your accounting software</h3>
-<p>Your new accountant will need access to your historical data. Here’s how to handle it for the three main platforms:</p>
+<p>Your new accountant will need access to your historical data. Here is how to handle it for the three main platforms:</p>
 <h4>Xero</h4>
 <ol>
-  <li>Log in as the organisation’s primary user (usually the director).</li>
+  <li>Log in as the organisation's primary user (usually the director).</li>
   <li>Go to Settings > General Settings > Export.</li>
   <li>Export a full backup as a .xero file. This includes all transactions, contacts, and settings.</li>
   <li>Share this file with your new accountant via a secure link (not email).</li>
@@ -410,9 +399,9 @@ export const GUIDES: Record<string, Guide> = {
 <h4>FreeAgent</h4>
 <ol>
   <li>Go to Settings > Account > Export Data.</li>
-  <li>Choose “Full Export” and download the CSV files for transactions, invoices, and contacts.</li>
-  <li>FreeAgent doesn’t have a one-click import for new accountants, so your new firm will need to set up a new FreeAgent account and manually map the data.</li>
-  <li>Alternatively, your new accountant can request “read-only” access to your existing FreeAgent account during the handover period.</li>
+  <li>Choose "Full Export" and download the CSV files for transactions, invoices, and contacts.</li>
+  <li>FreeAgent does not have a one-click import for new accountants, so your new firm will need to set up a new FreeAgent account and manually map the data.</li>
+  <li>Alternatively, your new accountant can request "read-only" access to your existing FreeAgent account during the handover period.</li>
 </ol>
 <h4>QuickBooks Online</h4>
 <ol>
@@ -424,11 +413,11 @@ export const GUIDES: Record<string, Guide> = {
 <p>Whichever platform you use, keep your old account active for at least one full month after the switch. This allows for reconciliation of any pending transactions.</p>
 
 <h3>Transfer third-party integrations</h3>
-<p>If you use payment gateways like Stripe, PayPal, or Shopify that feed into your accounting software, you’ll need to update the integration settings. Most platforms allow you to have multiple accounting connections, but it’s cleaner to disconnect the old one and connect the new one after the migration is complete.</p>
+<p>If you use payment gateways like Stripe, PayPal, or Shopify that feed into your accounting software, you will need to update the integration settings. Most platforms allow you to have multiple accounting connections, but it is cleaner to disconnect the old one and connect the new one after the migration is complete.</p>
 
 <h2>Week 4: Parallel Running and Go-Live</h2>
 <h3>Set up a parallel running period</h3>
-<p>A parallel running period is when both your old and new accountants have access to your financial data for a short time. This ensures nothing falls through the cracks. Here’s how to do it:</p>
+<p>A parallel running period is when both your old and new accountants have access to your financial data for a short time. This ensures nothing falls through the cracks. Here is how to do it:</p>
 <ol>
   <li>Keep your old accounting software subscription active for one month after the switch.</li>
   <li>Your new accountant will set up a new instance of your accounting software (or take over the existing one).</li>
@@ -439,23 +428,23 @@ export const GUIDES: Record<string, Guide> = {
 <p>Most businesses only need one month of parallel running. If your accounts are complex (e.g., multiple subsidiaries or international transactions), extend it to two months.</p>
 
 <h3>When to switch the year-end filing</h3>
-<p>This is a critical decision. Here’s the rule of thumb:</p>
+<p>This is a critical decision. Here is the rule of thumb:</p>
 <ul>
-  <li><strong>If you’re within three months of your year-end</strong>, let your current accountant file the year-end accounts. Switching mid-year-end creates confusion and can lead to late filing penalties.</li>
-  <li><strong>If you’re more than six months away from your year-end</strong>, switch immediately. Your new accountant will have plenty of time to get up to speed before the filing deadline.</li>
-  <li><strong>If you’re between three and six months away</strong>, it depends on the complexity. A simple business with one director and no employees can switch. A larger business with multiple staff and VAT schemes should wait until after the year-end.</li>
+  <li><strong>If you are within three months of your year-end</strong>, let your current accountant file the year-end accounts. Switching mid-year-end creates confusion and can lead to late filing penalties.</li>
+  <li><strong>If you are more than six months away from your year-end</strong>, switch immediately. Your new accountant will have plenty of time to get up to speed before the filing deadline.</li>
+  <li><strong>If you are between three and six months away</strong>, it depends on the complexity. A simple business with one director and no employees can switch. A larger business with multiple staff and VAT schemes should wait until after the year-end.</li>
 </ul>
-<p>Remember: the CT600 filing deadline is 12 months after your year-end, but you also need to pay corporation tax nine months and one day after the year-end. Don’t let the switch delay your payment.</p>
+<p>Remember: the CT600 filing deadline is 12 months after your year-end, but you also need to pay corporation tax nine months and one day after the year-end. Do not let the switch delay your payment.</p>
 
 <h2>What NOT to Do Mid-Year</h2>
 <p>These mistakes can cause serious problems:</p>
 <ul>
-  <li><strong>Don’t cancel your old accounting software subscription immediately.</strong> You’ll lose access to historical data and invoices. Keep it active for at least one month after the switch.</li>
-  <li><strong>Don’t change your accounting year-end.</strong> This is a complex process that requires HMRC approval. Do it only if you have a strong business reason, and let your new accountant handle it after the switch.</li>
-  <li><strong>Don’t stop filing VAT returns.</strong> Even if you’re in the middle of a switch, you’re still liable for VAT. Your new accountant should file the next return on your behalf.</li>
-  <li><strong>Don’t ignore the professional clearance letter.</strong> If your current accountant doesn’t respond within 30 days, follow up. If they still don’t respond, your new accountant can proceed without it, but it’s better to have the formal handover.</li>
-  <li><strong>Don’t switch during a tax investigation.</strong> If HMRC is already looking at your accounts, wait until the investigation is closed. Switching mid-investigation can complicate matters and annoy HMRC.</li>
-  <li><strong>Don’t pay your old accountant in advance for services not yet rendered.</strong> Most accountants work on a monthly retainer. If you’ve paid for the full year, ask for a pro-rata refund.</li>
+  <li><strong>Do not cancel your old accounting software subscription immediately.</strong> You will lose access to historical data and invoices. Keep it active for at least one month after the switch.</li>
+  <li><strong>Do not change your accounting year-end.</strong> This is a complex process that requires HMRC approval. Do it only if you have a strong business reason, and let your new accountant handle it after the switch.</li>
+  <li><strong>Do not stop filing VAT returns.</strong> Even if you are in the middle of a switch, you are still liable for VAT. Your new accountant should file the next return on your behalf.</li>
+  <li><strong>Do not ignore the professional clearance letter.</strong> If your current accountant does not respond within 30 days, follow up. If they still do not respond, your new accountant can proceed without it, but it is better to have the formal handover.</li>
+  <li><strong>Do not switch during a tax investigation.</strong> If HMRC is already looking at your accounts, wait until the investigation is closed. Switching mid-investigation can complicate matters and annoy HMRC.</li>
+  <li><strong>Do not pay your old accountant in advance for services not yet rendered.</strong> Most accountants work on a monthly retainer. If you have paid for the full year, ask for a pro-rata refund.</li>
 </ul>
 
 <h2>Your 30-Day Timeline at a Glance</h2>
@@ -471,7 +460,7 @@ export const GUIDES: Record<string, Guide> = {
     <tr>
       <td>Week 1</td>
       <td>Research and shortlist</td>
-      <td>Define requirements, interview 3–5 firms, check credentials, ask the 10 questions</td>
+      <td>Define requirements, interview 3, 5 firms, check credentials, ask the 10 questions</td>
     </tr>
     <tr>
       <td>Week 2</td>
@@ -492,22 +481,22 @@ export const GUIDES: Record<string, Guide> = {
 </table>
 
 <h2>Your Action Plan</h2>
-<p>Switching accountants is a practical decision that can save you money, reduce stress, and improve your business’s tax position. Follow these five steps to get it done in 30 days:</p>
+<p>Switching accountants is a practical decision that can save you money, reduce stress, and improve your business's tax position. Follow these five steps to get it done in 30 days:</p>
 <ol>
   <li><strong>Week 1:</strong> Define your requirements and interview at least three specialist accountants. Use the 10 questions above to vet them.</li>
   <li><strong>Week 2:</strong> Sign with your chosen firm and initiate the professional clearance process. Gather all authorisation codes (64-8, Government Gateway, VAT, PAYE).</li>
   <li><strong>Week 3:</strong> Back up your accounting software and transfer integrations. Keep your old subscription active for one month.</li>
   <li><strong>Week 4:</strong> Run both accounts in parallel for one month. Reconcile bank statements and VAT returns. Close the old account only when everything matches.</li>
-  <li><strong>After the switch:</strong> Review your new accountant’s performance after three months. Check that they’ve filed your next VAT return on time, provided proactive tax planning (especially around the 2025/26 dividend allowance and corporation tax thresholds), and responded to your queries within 24 hours.</li>
+  <li><strong>After the switch:</strong> Review your new accountant's performance after three months. Check that they have filed your next VAT return on time, provided proactive tax planning (especially around the 2025/26 dividend allowance and corporation tax thresholds), and responded to your queries within 24 hours.</li>
 </ol>
-<p>If you follow this playbook, you’ll have a clean, compliant switch that positions your business for better financial management in the years ahead.</p>`,
+<p>If you follow this playbook, you will have a clean, compliant switch that positions your business for better financial management in the years ahead.</p>`,
   },
   "dubai-pre-move-checklist": {
     slug: "dubai-pre-move-checklist",
-    title: "The UK Business Owner's Pre-Dubai Move Financial Checklist",
-    teaser: "Everything to do in the 12-18 months before you move to Dubai. UK statutory residence test planning, what to do with your UK Ltd, asset disposal timing, UAE entity setup options, banking, and the practical checklist most relocators get wrong.",
+    title: "12 months until Dubai? Here is the tax and company structure checklist most UK business owners miss",
+    teaser: "Relocating to Dubai can save you tens of thousands in tax, but only if you start planning 12 months before you leave. This guide covers the Statutory Residence Test, what to do with your UK company, capital gains sequencing, pension and ISA timing, property decisions, UAE entity setup, banking, and the HMRC filings that catch people out. Written for UK company directors, sole traders, and partnership owners.",
     category: "Dubai relocation",
-    body: `<p>This guide is a practical 12–18 month pre-departure checklist for UK business owners planning to relocate to Dubai. It covers the statutory residence test, what to do with your UK limited company, capital gains tax sequencing, pension and ISA strategies, property decisions, UAE entity setup, banking, and the key HMRC filings you must handle before and after you leave. It is written for limited company directors, contractors, and sole traders who are considering a move to the UAE and want to avoid costly tax mistakes while staying compliant with HMRC.</p>
+    body: `<p>This guide is a practical 12 to 18 month pre-departure checklist for UK business owners planning to relocate to Dubai. It covers the Statutory Residence Test, what to do with your UK limited company, capital gains tax sequencing, pension and ISA strategies, property decisions, UAE entity setup, banking, and the key HMRC filings you must handle before and after you leave. It is written for limited company directors, contractors, and sole traders who are considering a move to the UAE and want to avoid costly tax mistakes while staying compliant with HMRC.</p>
 
 <h2>1. The Statutory Residence Test: Your First Planning Priority</h2>
 <p>Your UK tax residence status determines everything that follows. You must plan to pass the Statutory Residence Test (SRT) at least 12 months before you move. The SRT has three parts: the automatic overseas test, the automatic UK test, and the sufficient ties test. For most business owners, the sufficient ties test is where you need to focus.</p>
@@ -515,8 +504,8 @@ export const GUIDES: Record<string, Guide> = {
 <h3>Counting Days: The 16-Day Rule</h3>
 <ul>
 <li><strong>Leaving the UK:</strong> You must spend fewer than 16 days in the UK per tax year to be non-resident under the automatic overseas test. If you have full-time work abroad, the threshold rises to 91 days, but you must work an average of at least 35 hours per week overseas.</li>
-<li><strong>Mid-year departure:</strong> If you leave partway through a tax year, you count days from 6 April to the date you leave, then from the date you leave to 5 April the following year. HMRC uses the “midnight rule”: you are present in the UK if you are here at midnight. Plan your flights accordingly.</li>
-<li><strong>2025/26 rates:</strong> The personal allowance remains £12,570. If you exceed 15 days in the UK after leaving, you risk being UK-resident for the whole year.</li>
+<li><strong>Mid-year departure:</strong> If you leave partway through a tax year, you count days from 6 April to the date you leave, then from the date you leave to 5 April the following year. HMRC uses the midnight rule: you are present in the UK if you are here at midnight. Plan your flights accordingly.</li>
+<li><strong>2025/26 rates:</strong> The personal allowance remains at £12,570. If you exceed 15 days in the UK after leaving, you risk being UK-resident for the whole year.</li>
 </ul>
 
 <h3>The Ties Test: What You Must Break</h3>
@@ -525,7 +514,7 @@ export const GUIDES: Record<string, Guide> = {
 <li><strong>Family tie:</strong> If your spouse or minor children remain in the UK, you have a family tie. This is the hardest to break. If you have a family tie, you can only spend 90 days in the UK before becoming resident.</li>
 <li><strong>Accommodation tie:</strong> If you own or rent a UK property that is available for you to use, you have an accommodation tie. Sell or let it on a long-term lease (at least 12 months) to break this tie.</li>
 <li><strong>Work tie:</strong> If you work in the UK for more than 40 days in a tax year (including self-employed work), you have a work tie. This is critical for business owners who might continue to serve UK clients remotely.</li>
-<li><strong>90-day tie:</strong> If you spent 90+ days in the UK in either of the previous two tax years, you have this tie.</li>
+<li><strong>90-day tie:</strong> If you spent 90 or more days in the UK in either of the previous two tax years, you have this tie.</li>
 </ul>
 
 <table>
@@ -548,7 +537,7 @@ export const GUIDES: Record<string, Guide> = {
 
 <h3>Option 1: Keep the UK Company With a UK-Resident Director</h3>
 <ul>
-<li><strong>How it works:</strong> You remain a shareholder but appoint a UK-resident director (e.g., a co-founder or a professional director service). The company continues to trade, file CT600s, and pay corporation tax at 19% (profits up to £50,000) or 25% (profits over £250,000).</li>
+<li><strong>How it works:</strong> You remain a shareholder but appoint a UK-resident director (for example, a co-founder or a professional director service). The company continues to trade, file CT600s, and pay corporation tax at 19% (profits up to £50,000) or 25% (profits over £250,000).</li>
 <li><strong>Pros:</strong> You avoid triggering a deemed disposal of your shares. The company can continue to pay you dividends (though you will pay UK dividend tax as a non-resident on UK-source dividends).</li>
 <li><strong>Cons:</strong> HMRC may argue the company is still managed and controlled from the UK if you make key decisions from Dubai. You need a robust board structure and minutes showing the UK director makes decisions.</li>
 <li><strong>Best for:</strong> Business owners who want to keep the UK entity running for existing contracts and have a trustworthy UK-based director.</li>
@@ -562,22 +551,22 @@ export const GUIDES: Record<string, Guide> = {
 <li><strong>Best for:</strong> Business owners who want to keep the same legal entity and have a clean break from UK management.</li>
 </ul>
 
-<h3>Option 3: Close the UK Company (Members’ Voluntary Liquidation)</h3>
+<h3>Option 3: Close the UK Company (Members Voluntary Liquidation)</h3>
 <ul>
-<li><strong>How it works:</strong> You put the company into a members’ voluntary liquidation (MVL). Distributions are treated as capital, not dividends, so you pay Capital Gains Tax at 24% (2025/26 rate for higher-rate taxpayers) instead of dividend tax at up to 39.35%.</li>
+<li><strong>How it works:</strong> You put the company into a members voluntary liquidation (MVL). Distributions are treated as capital, not dividends, so you pay Capital Gains Tax at 24% (2025/26 rate for higher-rate taxpayers) instead of dividend tax at up to 39.35%.</li>
 <li><strong>Pros:</strong> Clean break. You can extract retained profits at CGT rates rather than dividend rates. You close your UK tax obligations.</li>
-<li><strong>Cons:</strong> You lose the company structure. If you later need a UK entity, you must incorporate a new one. MVL costs £2,000–£5,000 in professional fees.</li>
+<li><strong>Cons:</strong> You lose the company structure. If you later need a UK entity, you must incorporate a new one. MVL costs between £2,000 and £5,000 in professional fees.</li>
 <li><strong>Best for:</strong> Business owners who plan to operate solely through a UAE entity and want to crystallise gains before leaving.</li>
 </ul>
 
-<p><strong>Action:</strong> Decide by month 10 before your move. If you choose MVL, start the process early-it takes 3–6 months.</p>
+<p><strong>Action:</strong> Decide by month 10 before your move. If you choose MVL, start the process early. It takes 3 to 6 months.</p>
 
 <h2>3. Asset Disposal Timing: CGT-Efficient Sequencing</h2>
-<p>If you plan to sell assets (shares, property, cryptocurrency) before leaving, you need to sequence disposals to minimise tax. As a UK resident, you pay CGT at 10% (basic rate) or 24% (higher rate) on gains above your annual exempt amount (£3,000 in 2025/26). As a non-resident, you only pay CGT on UK land and property-not on shares or crypto.</p>
+<p>If you plan to sell assets (shares, property, cryptocurrency) before leaving, you need to sequence disposals to minimise tax. As a UK resident, you pay CGT at 10% (basic rate) or 24% (higher rate) on gains above your annual exempt amount (£3,000 in 2025/26). As a non-resident, you only pay CGT on UK land and property, not on shares or crypto.</p>
 
 <ul>
 <li><strong>Sell UK shares before leaving:</strong> If you sell shares in your business or other companies while UK-resident, you pay CGT. If you wait until after you become non-resident, you pay 0% (unless the shares derive value from UK land).</li>
-<li><strong>Sell UK property before leaving:</strong> If you sell a UK property while resident, you pay CGT at 24%. If you sell after becoming non-resident, you still pay CGT on UK property-but you may have a lower effective rate if your UAE income is low.</li>
+<li><strong>Sell UK property before leaving:</strong> If you sell a UK property while resident, you pay CGT at 24%. If you sell after becoming non-resident, you still pay CGT on UK property, but you may have a lower effective rate if your UAE income is low.</li>
 <li><strong>Use the annual exempt amount:</strong> If you have gains under £3,000, realise them before leaving to use the allowance. After you become non-resident, you lose the allowance for non-UK assets.</li>
 <li><strong>Bed and breakfasting:</strong> If you hold shares with a large gain, consider selling and repurchasing before you leave to rebase the cost. This is only effective if you plan to sell later as a non-resident.</li>
 </ul>
@@ -589,7 +578,7 @@ export const GUIDES: Record<string, Guide> = {
 
 <ul>
 <li><strong>Max out your allowance:</strong> If you have £60,000 of available annual allowance, contribute before you leave. You get 40% or 45% relief depending on your income. This is one of the most tax-efficient moves you can make.</li>
-<li><strong>Carry forward:</strong> You can carry forward unused allowance from the previous three tax years. If you have not used your full allowance since 2022/23, you can contribute up to £200,000+ in one go (subject to earnings).</li>
+<li><strong>Carry forward:</strong> You can carry forward unused allowance from the previous three tax years. If you have not used your full allowance since 2022/23, you can contribute up to £200,000 or more in one go (subject to earnings).</li>
 <li><strong>Timing:</strong> Contributions must be made before you leave the UK and before the end of the tax year (5 April). If you leave mid-year, you can still contribute for the part-year you were resident.</li>
 <li><strong>Overseas transfer:</strong> You can transfer your UK pension to a Qualifying Recognised Overseas Pension Scheme (QROPS) in the UAE. But beware: transfers over £25,000 may trigger a 25% overseas transfer charge unless you are resident in the same country as the QROPS for at least five tax years. Most UAE QROPS are now restricted, so seek specialist advice.</li>
 </ul>
@@ -641,8 +630,8 @@ export const GUIDES: Record<string, Guide> = {
 <ul>
 <li><strong>Ownership:</strong> 100% foreign ownership allowed since 2021 for most activities.</li>
 <li><strong>Location:</strong> Can trade anywhere in the UAE and internationally.</li>
-<li><strong>Visa:</strong> You get a 2–3 year investor visa. No minimum salary requirement.</li>
-<li><strong>Tax:</strong> 9% corporate tax on profits over AED 375,000 (approx. £80,000). No VAT on most services if turnover is under AED 375,000.</li>
+<li><strong>Visa:</strong> You get a 2 to 3 year investor visa. No minimum salary requirement.</li>
+<li><strong>Tax:</strong> 9% corporate tax on profits over AED 375,000 (approximately £80,000). No VAT on most services if turnover is under AED 375,000.</li>
 <li><strong>Best for:</strong> Business owners who want to trade with UAE government entities or need a physical office in a prime location.</li>
 </ul>
 
@@ -650,7 +639,7 @@ export const GUIDES: Record<string, Guide> = {
 <ul>
 <li><strong>Ownership:</strong> 100% foreign ownership. No local sponsor required.</li>
 <li><strong>Location:</strong> Restricted to operating within the free zone or internationally. Cannot trade directly with the UAE mainland without a local distributor.</li>
-<li><strong>Visa:</strong> You get a 2–3 year investor visa. Some free zones offer 5-year visas for larger investments.</li>
+<li><strong>Visa:</strong> You get a 2 to 3 year investor visa. Some free zones offer 5-year visas for larger investments.</li>
 <li><strong>Tax:</strong> 0% corporate tax for qualifying income (most free zones). 9% on non-qualifying income.</li>
 <li><strong>Best for:</strong> Business owners who serve international clients and do not need to trade on the UAE mainland.</li>
 </ul>
@@ -660,36 +649,36 @@ export const GUIDES: Record<string, Guide> = {
 <tr><th>Free Zone</th><th>Cost (Setup + Annual)</th><th>Visa Type</th><th>Best For</th></tr>
 </thead>
 <tbody>
-<tr><td>IFZA (Fujairah)</td><td>£2,500–£4,000</td><td>2-year investor</td><td>Cost-effective, good for digital businesses</td></tr>
-<tr><td>JAFZA (Jebel Ali)</td><td>£5,000–£8,000</td><td>3-year investor</td><td>Larger operations, trading companies</td></tr>
-<tr><td>DMCC (Dubai Multi Commodities Centre)</td><td>£6,000–£10,000</td><td>3-year investor</td><td>Tech and media businesses, premium location</td></tr>
-<tr><td>RAK ICC (Ras Al Khaimah)</td><td>£1,500–£3,000</td><td>2-year investor</td><td>Budget option, remote work</td></tr>
+<tr><td>IFZA (Fujairah)</td><td>£2,500 to £4,000</td><td>2-year investor</td><td>Cost-effective, good for digital businesses</td></tr>
+<tr><td>JAFZA (Jebel Ali)</td><td>£5,000 to £8,000</td><td>3-year investor</td><td>Larger operations, trading companies</td></tr>
+<tr><td>DMCC (Dubai Multi Commodities Centre)</td><td>£6,000 to £10,000</td><td>3-year investor</td><td>Tech and media businesses, premium location</td></tr>
+<tr><td>RAK ICC (Ras Al Khaimah)</td><td>£1,500 to £3,000</td><td>2-year investor</td><td>Budget option, remote work</td></tr>
 </tbody>
 </table>
 
 <p><strong>Action:</strong> Research free zones by month 6 before your move. DMCC is popular for business owners, but IFZA or RAK ICC may be more cost-effective if you do not need a prestigious address.</p>
 
 <h2>8. UAE Golden Visa Eligibility</h2>
-<p>The UAE Golden Visa offers 5- or 10-year residency without a local sponsor. It is available to investors, entrepreneurs, and specialised talent. As a business owner, you may qualify under the entrepreneur category.</p>
+<p>The UAE Golden Visa offers 5 or 10 year residency without a local sponsor. It is available to investors, entrepreneurs, and specialised talent. As a business owner, you may qualify under the entrepreneur category.</p>
 
 <ul>
-<li><strong>Entrepreneur criteria:</strong> You must own a project with a minimum investment of AED 500,000 (approx. £107,000) or have approval from an accredited business incubator. Your business turnover or valuation may count.</li>
-<li><strong>Investor criteria:</strong> You can invest AED 2 million (approx. £430,000) in a UAE property or a UAE company.</li>
+<li><strong>Entrepreneur criteria:</strong> You must own a project with a minimum investment of AED 500,000 (approximately £107,000) or have approval from an accredited business incubator. Your business turnover or valuation may count.</li>
+<li><strong>Investor criteria:</strong> You can invest AED 2 million (approximately £430,000) in a UAE property or a UAE company.</li>
 <li><strong>Benefits:</strong> No need for a local sponsor. You can sponsor your family (spouse, children, parents). You can stay outside the UAE for up to 12 months without losing residency.</li>
-<li><strong>Cost:</strong> Application fees are around £1,500–£3,000 depending on the emirate.</li>
+<li><strong>Cost:</strong> Application fees are around £1,500 to £3,000 depending on the emirate.</li>
 <li><strong>Best for:</strong> Business owners who want long-term stability and plan to invest significantly in the UAE.</li>
 </ul>
 
-<p><strong>Action:</strong> Check eligibility by month 6 before your move. If you qualify, apply early as processing can take 2–4 months.</p>
+<p><strong>Action:</strong> Check eligibility by month 6 before your move. If you qualify, apply early as processing can take 2 to 4 months.</p>
 
 <h2>9. Banking: UK and UAE Accounts</h2>
 <p>You need both UK and UAE bank accounts. UK banks may close or restrict accounts for non-residents. UAE banks require a residence visa to open an account.</p>
 
 <ul>
-<li><strong>UK bank accounts:</strong> Keep at least one UK account for receiving residual income (e.g., rental income, dividends). Inform your bank of your new address. Some banks (e.g., HSBC, Barclays) allow non-resident accounts, but fees may be higher.</li>
+<li><strong>UK bank accounts:</strong> Keep at least one UK account for receiving residual income (for example, rental income, dividends). Inform your bank of your new address. Some banks (for example, HSBC, Barclays) allow non-resident accounts, but fees may be higher.</li>
 <li><strong>UAE bank accounts:</strong> Open a UAE account as soon as you have your residence visa. Popular options include Emirates NBD, ADCB, and HSBC UAE. You typically need your passport, visa, and Emirates ID.</li>
-<li><strong>Currency transfers:</strong> Use a specialist currency broker (e.g., Wise, CurrencyFair, OFX) for transferring large sums from the UK to the UAE. Bank transfers are slower and more expensive.</li>
-<li><strong>Multi-currency accounts:</strong> Consider a multi-currency account (e.g., Revolut, Wise) to hold GBP and AED and reduce conversion costs.</li>
+<li><strong>Currency transfers:</strong> Use a specialist currency broker (for example, Wise, CurrencyFair, OFX) for transferring large sums from the UK to the UAE. Bank transfers are slower and more expensive.</li>
+<li><strong>Multi-currency accounts:</strong> Consider a multi-currency account (for example, Revolut, Wise) to hold GBP and AED and reduce conversion costs.</li>
 </ul>
 
 <p><strong>Action:</strong> Set up a UK non-resident account 3 months before you leave. Open a UAE account within 1 month of arriving.</p>
@@ -699,7 +688,7 @@ export const GUIDES: Record<string, Guide> = {
 
 <ul>
 <li><strong>Year of departure:</strong> You must file a self-assessment tax return (SA100) for the tax year you leave. Include all UK-source income up to the date of departure. Deadline: 31 January following the end of the tax year.</li>
-<li><strong>Non-resident returns:</strong> If you have UK-source income (e.g., rental income, dividends from UK companies), you must file a non-resident tax return each year. Use form SA100 and tick the non-resident box.</li>
+<li><strong>Non-resident returns:</strong> If you have UK-source income (for example, rental income, dividends from UK companies), you must file a non-resident tax return each year. Use form SA100 and tick the non-resident box.</li>
 <li><strong>Capital gains:</strong> If you sell UK property after leaving, you must file a UK property disposal return within 60 days of completion. Use form CGT1.</li>
 <li><strong>Company filings:</strong> If you keep your UK company, you must continue to file annual accounts and CT600s. If the company becomes non-resident, notify HMRC via form CT600 and apply for a non-resident company ruling.</li>
 <li><strong>Penalties:</strong> Late filing penalties start at £100 and increase to £10 per day after 3 months. Interest accrues on late tax payments.</li>
@@ -715,13 +704,13 @@ export const GUIDES: Record<string, Guide> = {
 <tr><th>Months Before Move</th><th>Action</th></tr>
 </thead>
 <tbody>
-<tr><td>12–18</td><td>Start SRT planning. Map your ties. Begin day-counting spreadsheet.</td></tr>
-<tr><td>10–12</td><td>Decide on UK company: keep, run from Dubai, or close. If MVL, start process.</td></tr>
-<tr><td>8–10</td><td>List assets for disposal. Sequence disposals for CGT efficiency.</td></tr>
-<tr><td>6–8</td><td>Max out pension contributions. Contribute to ISAs. Decide on UK property.</td></tr>
-<tr><td>4–6</td><td>Research UAE free zones. Apply for Golden Visa if eligible. Set up UK non-resident bank account.</td></tr>
-<tr><td>2–4</td><td>Apply for NRL scheme if letting property. Notify HMRC of departure. File any outstanding returns.</td></tr>
-<tr><td>1–2</td><td>Finalise UAE entity setup. Open UAE bank account. Pack and move.</td></tr>
+<tr><td>12 to 18</td><td>Start SRT planning. Map your ties. Begin day-counting spreadsheet.</td></tr>
+<tr><td>10 to 12</td><td>Decide on UK company: keep, run from Dubai, or close. If MVL, start process.</td></tr>
+<tr><td>8 to 10</td><td>List assets for disposal. Sequence disposals for CGT efficiency.</td></tr>
+<tr><td>6 to 8</td><td>Max out pension contributions. Contribute to ISAs. Decide on UK property.</td></tr>
+<tr><td>4 to 6</td><td>Research UAE free zones. Apply for Golden Visa if eligible. Set up UK non-resident bank account.</td></tr>
+<tr><td>2 to 4</td><td>Apply for NRL scheme if letting property. Notify HMRC of departure. File any outstanding returns.</td></tr>
+<tr><td>1 to 2</td><td>Finalise UAE entity setup. Open UAE bank account. Pack and move.</td></tr>
 <tr><td>After move</td><td>File departure tax return within 6 months. Register for UAE tax if required. Update UK bank addresses.</td></tr>
 </tbody>
 </table>
@@ -730,24 +719,24 @@ export const GUIDES: Record<string, Guide> = {
   },
   "first-90-days-post-incorporation": {
     slug: "first-90-days-post-incorporation",
-    title: "The UK Limited Company Director's First 90 Days Post-Incorporation Guide",
-    teaser: "What to set up in your first 90 days as a UK limited company director. Bank account, Xero or FreeAgent, VAT registration timing, payroll if hiring, optimal salary setup, dividend declaration mechanics, and the things most business owners forget to do.",
+    title: "How to avoid the five most expensive mistakes new UK company directors make in their first quarter",
+    teaser: "A 90 day compliance and tax planning timeline for UK limited company directors. Covers the real deadlines that catch people out, the salary versus dividend trade off with 2025/26 figures, when VAT registration actually hurts you, and the two HMRC forms most first time directors file late. Written for independent retailers, subcontractors, consultancies, and anyone who has just incorporated.",
     category: "New founders",
-    body: `<p>This guide covers the essential compliance, financial, and operational steps every UK limited company director must take in the first 90 days after incorporating a limited company. It is written for business owners who have recently registered their company at Companies House and need a clear, week-by-week action plan to avoid penalties, optimise tax, and set up a clean financial foundation from day one.</p>
+    body: `<p>Incorporating a limited company at Companies House takes roughly 24 hours and costs £12. The hard part starts the day after. This guide walks through the operational and tax decisions that must be made before your first quarter ends, with worked examples drawn from e commerce sellers, construction subcontractors, and independent retail businesses. The figures are all 2025/26 unless stated otherwise.</p>
 
-<h2>Week 1–2: Bank Account, Software, and Company House Confirmations</h2>
+<h2>Week 1: Bank, software, and the SIC code trap</h2>
 
-<h3>Open a dedicated business bank account</h3>
-<p>Your company must have a separate bank account from day one. HMRC expects all company transactions to flow through a business account, and mixing personal and business funds creates accounting headaches and potential legal issues.</p>
+<h3>Open a business bank account before you spend a penny</h3>
+<p>Your company is a separate legal person. If you pay a business expense from your personal account, you are technically lending your company money, which creates a director&#x2019;s loan account that must be reported on your Company Tax Return. Open a dedicated account immediately.</p>
 <ul>
-  <li>Choose a bank that integrates with your accounting software (most do).</li>
-  <li>Popular options for limited companies: Starling Bank, Tide, Mettle (FreeAgent built-in), or high-street banks like Barclays or HSBC.</li>
-  <li>You will need your Companies House registration number and certificate of incorporation to open the account.</li>
-  <li>Set up a business debit card and, if you plan to spend on client entertainment or travel, a separate credit card.</li>
+  <li>You will need the company registration number and the certificate of incorporation (downloadable from Companies House).</li>
+  <li>Challenger banks such as Starling, Tide, and Mettle typically approve accounts within 48 hours. High street banks can take two weeks.</li>
+  <li>Mettle includes a free FreeAgent subscription, which removes one software cost decision.</li>
+  <li>Order a separate credit card for client entertaining. HMRC expects to see a clean split between travel, subsistence, and other expenses.</li>
 </ul>
 
-<h3>Select your accounting software</h3>
-<p>Your accounting software is the backbone of your company's financial operations. The three main contenders for UK businesses are Xero, FreeAgent, and QuickBooks. Here is how they compare for business-specific needs:</p>
+<h3>Pick your accounting software based on your industry</h3>
+<p>Xero, FreeAgent, and QuickBooks all meet Making Tax Digital requirements. The right choice depends on your workflow.</p>
 <table>
   <thead>
     <tr>
@@ -759,120 +748,85 @@ export const GUIDES: Record<string, Guide> = {
   </thead>
   <tbody>
     <tr>
-      <td>Starting price (approx.)</td>
-      <td>£14–£33/month</td>
-      <td>£10–£20/month (often free with Mettle or NatWest)</td>
-      <td>£12–£28/month</td>
+      <td>Monthly price (approx)</td>
+      <td>£14 to £33</td>
+      <td>£10 to £20</td>
+      <td>£12 to £28</td>
     </tr>
     <tr>
-      <td>MTD-compliant</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
+      <td>Inventory tracking</td>
+      <td>Add on required</td>
+      <td>Not available</td>
+      <td>Built in</td>
     </tr>
     <tr>
-      <td>Project tracking</td>
-      <td>Good (via add-ons like WorkflowMax or Practice Ignition)</td>
-      <td>Basic (time tracking included)</td>
-      <td>Good (built-in project costing)</td>
+      <td>Project profitability</td>
+      <td>Good with add ons</td>
+      <td>Basic time tracking</td>
+      <td>Built in costing</td>
     </tr>
     <tr>
-      <td>Payroll integration</td>
-      <td>Requires add-on (BrightPay or Xero Payroll)</td>
-      <td>Built-in (free for up to 5 employees)</td>
-      <td>Built-in (extra cost)</td>
+      <td>Payroll</td>
+      <td>Add on (BrightPay or Xero Payroll)</td>
+      <td>Free for up to 5 employees</td>
+      <td>Built in at extra cost</td>
     </tr>
     <tr>
       <td>VAT filing</td>
-      <td>Built-in</td>
-      <td>Built-in</td>
-      <td>Built-in</td>
+      <td>Built in</td>
+      <td>Built in</td>
+      <td>Built in</td>
     </tr>
     <tr>
       <td>Best for</td>
-      <td>Growing businesses with complex needs</td>
-      <td>Solo directors and small teams</td>
-      <td>Directors who want simplicity</td>
+      <td>Businesses with complex multi currency needs</td>
+      <td>Solo directors and very small teams</td>
+      <td>Retailers and product businesses with stock</td>
     </tr>
   </tbody>
 </table>
-<p><strong>Recommendation:</strong> If you are a solo director or have fewer than 5 employees, FreeAgent is often the most cost-effective and user-friendly option, especially if you bank with Mettle or NatWest. If you plan to scale quickly and need advanced reporting, Xero is the stronger choice.</p>
+<p>An e commerce seller holding 200 SKUs should choose QuickBooks for its inventory module. A management consultant with no stock and one employee will find FreeAgent perfectly adequate and cheaper.</p>
 
-<h3>Confirm your Companies House registration details</h3>
-<p>Within the first week, log into the Companies House WebFiling service and check the following:</p>
+<h3>Check your SIC code before it causes problems</h3>
+<p>The Standard Industrial Classification code you entered at incorporation determines which HMRC compliance letters you receive. A consultant who selected 70229 (management consultancy) will get different prompts than someone who selected 62020 (information technology consultancy). If the code is wrong, file a confirmation statement (form CS01, £13) to correct it. Do this in week one, because changing it later can trigger HMRC queries about prior year filings.</p>
+
+<h2>Week 2 to 3: HMRC registrations and the 90 day Corporation Tax deadline</h2>
+
+<h3>Register for Corporation Tax within three months of trading</h3>
+<p>HMRC defines starting to trade as the date you first invoice, incur a business expense, or receive income. If you incorporated but have not yet done any of those things, the clock starts on the incorporation date. You must register online using the company&#x2019;s Unique Taxpayer Reference (UTR), which HMRC posts to your registered office address within 10 to 14 days of incorporation.</p>
 <ul>
-  <li>Your company name is exactly as you intended.</li>
-  <li>The SIC code is correct (for many businesses, common codes include 70229 – management consultancy, 73110 – advertising agencies, or 74100 – specialised design).</li>
-  <li>Your registered office address is correct and can receive official mail.</li>
-  <li>Your director details (name, date of birth, nationality) are accurate.</li>
-  <li>Your PSC (Person with Significant Control) register is up to date.</li>
-</ul>
-<p>If any details are wrong, file a confirmation statement (CS01) to correct them. This costs £13 and must be done at least once a year anyway.</p>
-
-<h2>Week 3–4: HMRC Registrations</h2>
-
-<h3>Register for Corporation Tax</h3>
-<p>You must register your company for Corporation Tax within <strong>3 months</strong> of starting to trade. HMRC defines “starting to trade” as the date you first invoice a client, incur a business expense, or receive income. If you incorporated but have not traded yet, you still have 3 months from the date of incorporation.</p>
-<ul>
-  <li>Register online via HMRC’s website. You will need your company’s UTR (Unique Taxpayer Reference), which HMRC sends by post within 10–14 days of incorporation.</li>
   <li>Once registered, you will receive a notice to file a Company Tax Return (CT600) within 12 months of your accounting period end.</li>
   <li>Corporation Tax rates for 2025/26: 19% on profits up to £50,000, 25% on profits over £250,000, with marginal relief between £50,000 and £250,000.</li>
+  <li>If you miss the three month registration window, HMRC can issue a penalty of £100 plus daily penalties.</li>
 </ul>
 
-<h3>Register for PAYE if you plan to hire</h3>
-<p>If you plan to employ anyone (including yourself as a director taking a salary), you must register for PAYE. This applies even if you are the only employee.</p>
+<h3>PAYE registration: only if you take a salary or hire staff</h3>
+<p>If you plan to pay yourself a salary, you must register for PAYE. This applies even if you are the only employee. Register online through HMRC&#x2019;s PAYE for employers service. You will receive a PAYE reference number and an Accounts Office reference. You must submit RTI returns on or before each pay day.</p>
+<p>If you are the sole director and do not take a salary, you can skip PAYE registration entirely. Many new directors do not realise this and register unnecessarily, creating extra paperwork.</p>
+
+<h3>VAT registration: the case for and against going early</h3>
+<p>Compulsory registration applies when your taxable turnover exceeds £90,000 in any rolling 12 month period. You must register within 30 days of the month you exceeded the threshold, using form VAT1.</p>
+<p>Voluntary registration makes sense if most of your customers are VAT registered businesses, because they can reclaim the VAT you charge them. It also lets you reclaim VAT on your own purchases. A construction subcontractor buying £8,000 of materials and tools in year one would reclaim roughly £1,333 in VAT, which may justify early registration.</p>
+<p>But if you sell to the general public (an independent retailer or a sole trader hairdresser), voluntary registration adds 20% to your prices for no benefit. You are better off staying below the threshold until your turnover forces you over.</p>
 <ul>
-  <li>Register online at HMRC’s PAYE for employers service.</li>
-  <li>You will receive a PAYE reference number and an Accounts Office reference.</li>
-  <li>You must report payroll data to HMRC on or before each pay day using RTI (Real Time Information).</li>
-  <li>Use payroll software like BrightPay, Xero Payroll, or FreeAgent’s built-in payroll to submit RTI returns.</li>
-  <li>If you are the only director and do not take a salary, you do not need to register PAYE. But most company directors take a small salary (see below).</li>
+  <li><strong>Flat Rate Scheme:</strong> Available if annual turnover (ex VAT) is £150,000 or less. Most service businesses use 14% (or 16.5% for limited cost businesses). This simplifies accounting but can cost you money if you have high VAT bearing expenses.</li>
+  <li><strong>Cash accounting scheme:</strong> Available if turnover is £1.35M or less. You account for VAT when your clients pay you, not when you invoice them. Useful if you work on 30 day payment terms or longer.</li>
 </ul>
 
-<h3>Decide on VAT registration</h3>
-<p>VAT registration is compulsory if your taxable turnover exceeds <strong>£90,000</strong> in any rolling 12-month period. But many business owners choose to register voluntarily even below this threshold.</p>
-<ul>
-  <li><strong>Compulsory registration:</strong> If you hit £90k, you must register within 30 days of the month you exceeded it. Use form <strong>VAT1</strong>.</li>
-  <li><strong>Voluntary registration:</strong> Benefits include reclaiming VAT on business expenses (software, equipment, marketing) and appearing more professional to B2B clients who can reclaim the VAT themselves.</li>
-  <li><strong>Flat Rate Scheme:</strong> If your annual turnover (excluding VAT) is £150,000 or less, you can use the Flat Rate Scheme. For most service-based businesses, the flat rate percentage is 14% (or 16.5% if you are a limited cost business). This can simplify VAT accounting but may not always save you money.</li>
-  <li><strong>Cash accounting scheme:</strong> If your turnover is £1.35M or less, you can account for VAT on a cash basis (pay VAT when your clients pay you).</li>
-</ul>
-<p><strong>Action:</strong> If your business is B2B and you expect to spend £5,000+ on VAT-able expenses in your first year, register voluntarily from day one. If you are B2C and your turnover is below £90k, you might delay registration to keep prices lower.</p>
+<h2>Week 4 to 5: Salary, dividends, and the Employment Allowance nuance</h2>
 
-<h2>Week 5–6: Director’s Salary and Payroll Setup</h2>
+<h3>The optimal director salary for 2025/26</h3>
+<p>The standard advice is to pay yourself a salary equal to the Personal Allowance of £12,570 per year (£1,047.50 per month). At this level you pay no Income Tax and no employee National Insurance, because £12,570 is exactly the Primary Threshold. However, you do pay employer National Insurance at 13.8% on earnings above the Secondary Threshold of £9,100. On £12,570 that works out at roughly £480 per year.</p>
+<p>If you want to avoid employer NI entirely, cap your salary at £9,100. The downside is that you lose £3,470 of Personal Allowance headroom, which you could otherwise use against dividend income. Most directors prefer the £12,570 figure and treat the £480 NI cost as a small price for full allowance utilisation.</p>
+<p><strong>Worked example:</strong> A director of a software consultancy pays herself £12,570 salary and takes £40,000 in dividends. Her salary uses up the Personal Allowance. The first £500 of dividends is tax free (the dividend allowance). The remaining £39,500 is taxed at 8.75% (basic rate), giving a dividend tax bill of £3,456. Her total effective tax rate on combined income of £52,570 is roughly 12.5%.</p>
 
-<h3>Set up your director’s salary</h3>
-<p>The most tax-efficient way to pay yourself as a director is a small salary up to the Personal Allowance threshold, with the rest taken as dividends. For 2025/26, the Personal Allowance is <strong>£12,570</strong>.</p>
-<ul>
-  <li>Set your salary at £12,570 per year (or £1,047.50 per month).</li>
-  <li>At this level, you pay no Income Tax (because it is within the Personal Allowance) and no Employee National Insurance (because it is below the Primary Threshold of £12,570).</li>
-  <li>However, you <strong>will</strong> pay Employer’s National Insurance at 13.8% on earnings above the Secondary Threshold (£9,100 for 2025/26). So on a salary of £12,570, the employer NI is roughly £480 per year.</li>
-  <li>To avoid employer NI entirely, you could set your salary at £9,100 (the Secondary Threshold), but then you lose some Personal Allowance headroom. Most directors prefer the £12,570 salary and accept the small NI cost.</li>
-  <li>Payroll software like BrightPay or FreeAgent will calculate the exact figures for you.</li>
-</ul>
+<h3>Employment Allowance: when you can and cannot claim it</h3>
+<p>The Employment Allowance reduces your employer NI bill by up to £5,000 per year. You can claim it if your employer NI was less than £100,000 in the previous tax year. But there is a critical exclusion: if you are a company where the director is the only employee paid above the Secondary Threshold, you cannot claim it. If you have at least one other employee on payroll (even a part time administrator), you can.</p>
 
-<h3>Check Employment Allowance eligibility</h3>
-<p>The Employment Allowance lets eligible employers reduce their employer National Insurance bill by up to <strong>£5,000</strong> per year. For 2025/26, you can claim it if:</p>
-<ul>
-  <li>Your employer NI bill was less than £100,000 in the previous tax year.</li>
-  <li>You are not a company where the director is the only employee paid above the Secondary Threshold.</li>
-</ul>
-<p><strong>Caveat for company directors:</strong> If you are the only director and you pay yourself a salary above the Secondary Threshold, you <strong>cannot</strong> claim the Employment Allowance. If you have other employees (e.g., a part-time staff member on payroll), you can claim it. Check your eligibility carefully.</p>
+<h2>Week 6 to 8: Declaring your first dividend correctly</h2>
 
-<h3>Submit your first payroll RTI return</h3>
-<p>Before your first pay date, submit an RTI return to HMRC. This must include:</p>
-<ul>
-  <li>Your PAYE reference number.</li>
-  <li>Employee details (name, NI number, date of birth).</li>
-  <li>Gross pay, deductions, and net pay.</li>
-  <li>Use form <strong>P32</strong> to track your monthly PAYE and NI payments.</li>
-</ul>
-<p>You can pay HMRC monthly or quarterly. Most businesses pay monthly via Direct Debit.</p>
-
-<h2>Week 7–8: First Dividend Mechanics</h2>
-
-<h3>Understand dividend tax rates for 2025/26</h3>
-<p>Dividends are taxed at different rates depending on your total income. The dividend allowance for 2025/26 is <strong>£500</strong> (down from £1,000 in 2024/25).</p>
+<h3>Dividend tax rates and the shrinking allowance</h3>
+<p>The dividend allowance for 2025/26 is £500, down from £1,000 in 2024/25. This means every pound of dividend income above £500 is taxed immediately.</p>
 <table>
   <thead>
     <tr>
@@ -895,64 +849,36 @@ export const GUIDES: Record<string, Guide> = {
     </tr>
   </tbody>
 </table>
-<p>Your salary uses up part of your Personal Allowance and basic rate band, so dividends are taxed on top. For example, if you take a £12,570 salary and then £37,700 in dividends, you pay 8.75% on the dividends above the £500 allowance.</p>
+<p>Your salary eats into your basic rate band. If you take £12,570 salary, your basic rate band for dividends is £37,700 (the difference between £50,270 and £12,570). Dividends above that fall into the higher rate band.</p>
 
-<h3>Hold a board meeting and write minutes</h3>
-<p>Before paying any dividend, the company’s directors must formally approve it. This is a legal requirement under the Companies Act 2006.</p>
+<h3>Legal formalities: board minutes and dividend vouchers</h3>
+<p>Under the Companies Act 2006, a dividend must be formally approved by the directors. Even if you are the sole director, hold a board meeting and write minutes recording the date, the amount, and a statement that the company has sufficient distributable profits. Keep the minutes in your statutory records.</p>
+<p>Issue a dividend voucher to each shareholder. The voucher should show the company name and registration number, the date, the shareholder&#x2019;s name and shareholding, the dividend per share, and the total amount. You do not send these to HMRC, but you must keep them for your Self Assessment (form SA100) and your accountant will need them.</p>
+
+<h3>Check distributable profits before you pay</h3>
+<p>You can only pay dividends from retained profits after tax. If you pay a dividend when the company has not made a profit, it is unlawful and the directors are personally liable to repay it. If you are unsure, ask your accountant to prepare a simple management accounts before declaring anything.</p>
+<p><strong>Worked example:</strong> A construction subcontractor incorporates in June and invoices £30,000 in the first three months. After expenses (materials, van costs, insurance) he has £18,000 of profit before tax. He estimates Corporation Tax at roughly £3,420 (19% of £18,000), leaving £14,580 of distributable profit. He can safely declare a dividend of up to £14,580. He takes £10,000 as a dividend, leaving a buffer for unexpected costs.</p>
+
+<h2>Week 9 to 10: Professional clearance and R&D credits</h2>
+
+<h3>Professional clearance when switching accountants</h3>
+<p>If you previously filed Self Assessment returns as a sole trader and are now engaging a new accountant for your limited company, your new accountant should write to your previous one using form 64-8 to confirm there are no outstanding HMRC issues. This is a professional courtesy that protects both firms. If you have never had an accountant, you can skip this step.</p>
+
+<h3>R&D tax credits for unexpected claimants</h3>
+<p>Many business owners assume R&D credits only apply to laboratories and pharmaceutical companies. In practice, a software developer building a new CRM platform for clients, a manufacturer improving a production process, or a construction company designing a new building method can all qualify. For 2025/26:</p>
 <ul>
-  <li>Hold a board meeting (even if it is just you).</li>
-  <li>Write board minutes that record: the date, the amount of the dividend, the fact that the company has sufficient distributable profits, and the declaration of the dividend.</li>
-  <li>Keep the minutes in your company’s statutory records.</li>
+  <li>SME R&D Relief: Available to companies with fewer than 500 employees and turnover under €100M. Qualifying costs include staff salaries, software licences, and consumables used directly in R&D.</li>
+  <li>Loss making SMEs can claim a payable credit worth up to 14.5% of the surrendered loss.</li>
+  <li>Claims are made through the Company Tax Return (CT600) and must be submitted within 12 months of the accounting period end.</li>
+  <li>Keep detailed project notes, timesheets, and cost records from day one. HMRC is increasingly rigorous about R&D claim evidence.</li>
 </ul>
 
-<h3>Issue a dividend voucher</h3>
-<p>Each time you pay a dividend, you must give each shareholder a dividend voucher. This is a simple document that includes:</p>
-<ul>
-  <li>Company name and registration number.</li>
-  <li>Date of payment.</li>
-  <li>Shareholder name and number of shares held.</li>
-  <li>Dividend per share and total amount.</li>
-  <li>Tax credit (for dividends paid before April 2016, but now it is just a record).</li>
-</ul>
-<p>You do not need to send dividend vouchers to HMRC, but you must keep them for your records. Your accountant will need them to prepare your Self Assessment (form <strong>SA100</strong>).</p>
+<h2>Week 11 to 12: Bookkeeping routines and filing deadlines</h2>
 
-<h3>Check distributable profits</h3>
-<p>You can only pay dividends from retained profits (accumulated profits after tax). You cannot pay dividends from share capital or loans. If you are unsure, ask your accountant to prepare a simple profit and loss account before declaring any dividend.</p>
+<h3>Set a weekly bookkeeping habit</h3>
+<p>Reconcile your bank account at least once a week. Most accounting software imports transactions automatically, but you still need to categorise them: software subscriptions, marketing spend, travel, office costs, subcontractor payments. Upload receipts using apps such as Dext or Hubdoc. If you use Xero, set up bank rules to auto categorise recurring payments.</p>
 
-<h2>Week 9–10: Professional Clearance and R&D Credits</h2>
-
-<h3>Arrange professional clearance from your previous accountant</h3>
-<p>If you had a personal accountant before incorporating, or if you are moving from a sole trader to a limited company, you need to arrange professional clearance. This is a formal process where your new accountant writes to your previous accountant to confirm there are no outstanding issues.</p>
-<ul>
-  <li>Use form <strong>64-8</strong> (authorising your new accountant to act on your behalf with HMRC).</li>
-  <li>Your new accountant will request professional clearance to ensure all tax returns and records are up to date.</li>
-  <li>This is especially important if you are switching accountants mid-year or if you have any HMRC enquiries open.</li>
-</ul>
-
-<h3>Check R&D credit eligibility</h3>
-<p>If your business develops new software, tools, or processes, you may be eligible for R&D tax credits. For 2025/26, the rules are:</p>
-<ul>
-  <li><strong>R&D Expenditure Credit (RDEC):</strong> For large companies, but also applies to some SMEs that subcontract R&D.</li>
-  <li><strong>SME R&D Relief:</strong> If your company has fewer than 500 employees and turnover under €100M, you can claim up to 86% of qualifying costs (if you are loss-making) or a 19% payable credit.</li>
-  <li>Qualifying costs include staff salaries, software licences, and consumables used directly in R&D.</li>
-  <li>You must submit a claim via your Company Tax Return (CT600) within 12 months of your accounting period end.</li>
-</ul>
-<p><strong>Action:</strong> Even if you are not sure you qualify, keep detailed records of any development work. Many businesses qualify for R&D credits on client-funded projects where they have created something new or improved an existing process.</p>
-
-<h2>Week 11–12: Final Checks and Ongoing Compliance</h2>
-
-<h3>Set up your bookkeeping routine</h3>
-<p>By now, you should have your accounting software running. Set up a weekly or monthly bookkeeping routine:</p>
-<ul>
-  <li>Reconcile your bank account (most software does this automatically).</li>
-  <li>Categorise expenses (software, marketing, travel, entertainment, etc.).</li>
-  <li>Upload receipts and invoices (use apps like Dext or Hubdoc if you are on Xero).</li>
-  <li>Send invoices promptly and chase overdue payments.</li>
-  <li>If you use Klaviyo for email marketing or other SaaS tools, ensure you are tracking those subscriptions as expenses.</li>
-</ul>
-
-<h3>Understand your filing deadlines</h3>
-<p>As a limited company, you have several recurring deadlines. Mark these in your calendar:</p>
+<h3>Know your filing deadlines</h3>
 <table>
   <thead>
     <tr>
@@ -963,44 +889,45 @@ export const GUIDES: Record<string, Guide> = {
   </thead>
   <tbody>
     <tr>
-      <td>9 months after year-end</td>
+      <td>9 months after year end</td>
       <td>Corporation Tax payment</td>
       <td>Annual</td>
     </tr>
     <tr>
-      <td>12 months after year-end</td>
+      <td>12 months after year end</td>
       <td>Company Tax Return (CT600)</td>
       <td>Annual</td>
     </tr>
     <tr>
-      <td>9 months after year-end</td>
+      <td>9 months after year end</td>
       <td>Annual accounts to Companies House</td>
       <td>Annual</td>
     </tr>
     <tr>
-      <td>Within 14 days of pay day</td>
+      <td>On or before each pay day</td>
       <td>RTI payroll submission</td>
       <td>Monthly or weekly</td>
     </tr>
     <tr>
-      <td>Within 30 days of exceeding £90k</td>
+      <td>Within 30 days of exceeding £90k turnover</td>
       <td>VAT registration (VAT1)</td>
-      <td>One-off</td>
+      <td>One off</td>
     </tr>
     <tr>
-      <td>31 January after tax year</td>
-      <td>Self Assessment (SA100) – for dividends</td>
+      <td>31 January after the tax year</td>
+      <td>Self Assessment (SA100) for dividends</td>
       <td>Annual</td>
     </tr>
     <tr>
-      <td>5 October after tax year</td>
+      <td>5 October after the tax year</td>
       <td>Register for Self Assessment if new</td>
-      <td>One-off</td>
+      <td>One off</td>
     </tr>
   </tbody>
 </table>
+<p>Missing the Corporation Tax payment deadline triggers an automatic 2.6% interest charge on the overdue amount plus a 5% penalty if more than six months late. Do not rely on HMRC reminders; set your own calendar alerts.</p>
 
-<h3>Review your insurance needs</h3>
-<p>While not a compliance requirement, professional indemnity insurance is strongly recommended for most service-based businesses. Public liability insurance is also worth considering if you meet clients at their premises. Check your contracts: some clients will insist on minimum cover levels.</p>`,
+<h3>Insurance: what your contracts will demand</h3>
+<p>Professional indemnity insurance is not a legal requirement, but most B2B contracts will require it. A typical minimum is £250,000 of cover, though larger clients may ask for £1M or £2M. Public liability insurance is worth having if you visit client sites. Check your contracts before you sign them.</p>`,
   },
 };
