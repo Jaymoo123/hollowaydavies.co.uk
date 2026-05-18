@@ -45,7 +45,7 @@ export default function RDCreditPage() {
               R&amp;D Tax Credit Estimator
             </h1>
             <p className="mt-4 text-lg text-slate-300">
-              Get a directional estimate of your R&D tax credit using HMRC's post-April 2023 merged scheme rules, including the R&D-intensive enhanced rate.
+              Since the merged scheme came in for accounting periods on or after 1 April 2024, the headline relief rate for most claimants sits at roughly 16.2p in the pound. Drop your qualifying spend into the calculator to see your indicative claim, plus what the R&D-intensive enhanced rate would unlock if you qualify.
             </p>
           </div>
         </div>
@@ -57,12 +57,12 @@ export default function RDCreditPage() {
             <RDCreditEstimator />
 
             <div className="mt-12 bg-slate-900 p-8 sm:p-10 text-white">
-              <h2 className="text-2xl font-bold text-white sm:text-3xl">Want us to assess your actual claim?</h2>
+              <h2 className="text-2xl font-bold text-white sm:text-3xl">HMRC has tightened the gates. The good claims still pay.</h2>
               <p className="mt-3 text-base sm:text-lg text-slate-200">
-                We've processed R&D claims for AI, SaaS, software, engineering, manufacturing and innovation-led service businesses into six figures. Book a free call and we'll review your projects for genuine qualifying activity.
+                Compliance check rates have climbed sharply since 2023, and weak claims are now actively disallowed. We prepare claims for software firms, advanced manufacturers, engineering practices, biotech start-ups and innovation-led professional services, with the technical narrative and cost methodology HMRC now expects. Send us your projects and we will tell you, honestly, whether the claim is worth pursuing.
               </p>
-              <Link href="/free-health-check" className="mt-6 inline-block bg-orange-600 px-8 py-3 font-bold text-white border-b-4 border-orange-800 hover:bg-orange-700 transition-all">
-                Book a free assessment
+              <Link href="/contact" className="mt-6 inline-block bg-orange-600 px-8 py-3 font-bold text-white border-b-4 border-orange-800 hover:bg-orange-700 transition-all">
+                Send us your project list
               </Link>
             </div>
           </div>

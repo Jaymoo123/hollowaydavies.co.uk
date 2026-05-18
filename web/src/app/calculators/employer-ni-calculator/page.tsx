@@ -71,7 +71,7 @@ export default function EmployerNICalculatorPage() {
               Employer NI &amp; cost-to-hire calculator
             </h1>
             <p className="mt-4 text-lg text-slate-300 leading-relaxed">
-              Work out the true cost of your team. Employer National Insurance at 15%, Employment Allowance up to £10,500, and minimum auto-enrolment pension, all in one model.
+              Hiring is rarely as cheap as the offer letter implies. Add a salary in, get the full employer NI at 15%, the Employment Allowance offset of up to £10,500, and the 3% auto-enrolment pension contribution stacked on top, so you can see what an extra head actually costs each month.
             </p>
           </div>
         </div>
@@ -106,10 +106,10 @@ export default function EmployerNICalculatorPage() {
 
             <div className="mt-12 bg-slate-900 p-8 sm:p-10 text-white">
               <h2 className="text-2xl font-bold text-white sm:text-3xl">
-                Modelling your next hires?
+                Budgeting a hiring round?
               </h2>
               <p className="mt-3 text-base sm:text-lg text-slate-200 leading-relaxed">
-                We work with UK businesses to model headcount cost against revenue, margin and cash position. Book a free call to talk through your next 12 months of hiring.
+                The calculator gives you a per-role number. The harder question is sequencing: who first, how the cash flow handles it, when the Employment Allowance gets used up, and what the all-in cost looks like layered over a 12-month plan. We model that with limited company directors monthly, and the conversation is free.
               </p>
               <Link
                 href="/contact"

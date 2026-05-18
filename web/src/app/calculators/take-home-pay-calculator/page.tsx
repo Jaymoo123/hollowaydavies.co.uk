@@ -71,7 +71,7 @@ export default function TakeHomePayCalculatorPage() {
               Take-Home Pay Calculator
             </h1>
             <p className="mt-4 text-lg text-slate-300 leading-relaxed">
-              Work out your UK take-home pay for the 2025/26 tax year. Includes income tax, employee National Insurance, student loan plans and salary-sacrifice pension contributions.
+              The HMRC headline number says one thing, what arrives in your account says another. Enter your gross salary and the calculator returns annual, monthly and weekly net pay for 2025/26, with income tax, employee NI, student loan plans, and any salary-sacrifice pension contributions all factored in.
             </p>
           </div>
         </div>
@@ -106,10 +106,10 @@ export default function TakeHomePayCalculatorPage() {
 
             <div className="mt-12 bg-slate-900 p-8 sm:p-10 text-white">
               <h2 className="text-2xl font-bold text-white sm:text-3xl">
-                Running a limited company? Try the salary &amp; dividend optimiser
+                Drawing dividends from your own Ltd? This calculator misses half the picture
               </h2>
               <p className="mt-3 text-base sm:text-lg text-slate-200 leading-relaxed">
-                If you take a small salary plus dividends, your real take-home depends on both. Our optimiser models corporation tax, dividend tax, NI and income tax in one go.
+                Limited company owners typically take a small PAYE salary alongside dividends from post-tax profit. The take-home pay calculator handles the salary leg only. To see the full position, use the salary &amp; dividend optimiser, which prices corporation tax and dividend tax into the same model.
               </p>
               <Link
                 href="/calculators/salary-dividend-optimiser"

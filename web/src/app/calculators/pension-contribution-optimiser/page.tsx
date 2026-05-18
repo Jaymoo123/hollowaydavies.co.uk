@@ -72,7 +72,7 @@ export default function PensionContributionOptimiserPage() {
               Pension Contribution Optimiser
             </h1>
             <p className="mt-4 text-lg text-slate-300 leading-relaxed">
-              Model employer pension contributions from your UK limited company. See the corporation tax saving, real cost to the company, and the advantage over taking the same money as a dividend.
+              For most owner-managed limited companies, pension is the most tax-efficient way to move retained profit out of the business. Plug in your numbers and the calculator shows the corporation tax saved, the net cost to the company, and how much further the same money goes versus drawing it as a dividend.
             </p>
           </div>
         </div>
@@ -107,10 +107,10 @@ export default function PensionContributionOptimiserPage() {
 
             <div className="mt-12 bg-slate-900 p-8 sm:p-10 text-white">
               <h2 className="text-2xl font-bold text-white sm:text-3xl">
-                Want a full extraction strategy that includes pensions?
+                A pension contribution rarely sits alone
               </h2>
               <p className="mt-3 text-base sm:text-lg text-slate-200 leading-relaxed">
-                Book a free call. We will model your real position, salary, dividends, employer pension, retained earnings and exit timing, to find the most efficient mix for the next three to five years.
+                The right number depends on your salary level, dividend extraction, retained profit, carry-forward from the last three years, and whether you are pre or post the £260,000 tapered allowance threshold. We sit with limited company directors twice a year to map that out, and the first call is on us.
               </p>
               <Link
                 href="/contact"

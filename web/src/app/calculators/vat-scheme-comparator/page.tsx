@@ -45,7 +45,7 @@ export default function VATComparatorPage() {
               VAT Scheme Comparator
             </h1>
             <p className="mt-4 text-lg text-slate-300">
-              Compare Standard VAT against the Flat Rate Scheme for your business. Includes the Limited Cost Trader test that catches most service businesses out.
+              Picking the wrong VAT scheme costs four-figure sums a year for most service businesses. Run your turnover and input VAT through the comparator to see whether the Flat Rate Scheme beats Standard VAT for you, and whether the Limited Cost Trader rules would force you onto the 16.5% sector rate anyway.
             </p>
           </div>
         </div>
@@ -57,12 +57,12 @@ export default function VATComparatorPage() {
             <VATSchemeComparator />
 
             <div className="mt-12 bg-slate-900 p-8 sm:p-10 text-white">
-              <h2 className="text-2xl font-bold text-white sm:text-3xl">VAT setup feeling messy?</h2>
+              <h2 className="text-2xl font-bold text-white sm:text-3xl">Voluntary registration is the underrated lever</h2>
               <p className="mt-3 text-base sm:text-lg text-slate-200">
-                We handle VAT registration, scheme selection, MTD compliance and quarterly returns for UK businesses of every shape. Fixed fee, no surprises.
+                Most owners think about VAT only when they cross £90,000 of turnover. The smarter ones model voluntary registration earlier, recover input VAT on capital purchases, and switch schemes deliberately as the business changes shape. We do that modelling, plus the registration, scheme switches, MTD setup and quarterly returns, on a fixed monthly fee.
               </p>
-              <Link href="/free-health-check" className="mt-6 inline-block bg-orange-600 px-8 py-3 font-bold text-white border-b-4 border-orange-800 hover:bg-orange-700 transition-all">
-                Book a free VAT review
+              <Link href="/contact" className="mt-6 inline-block bg-orange-600 px-8 py-3 font-bold text-white border-b-4 border-orange-800 hover:bg-orange-700 transition-all">
+                Talk to us about VAT
               </Link>
             </div>
           </div>

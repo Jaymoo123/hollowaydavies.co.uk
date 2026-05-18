@@ -45,7 +45,7 @@ export default function BADRPage() {
               BADR Calculator
             </h1>
             <p className="mt-4 text-lg text-slate-300">
-              Work out your CGT bill on a business sale under Business Asset Disposal Relief. Models the £1M lifetime limit, the rate increase from 6 April 2026, and the eligibility tests.
+              Selling a limited company, a sole-trader business or qualifying business assets? This calculator models the BADR rate you will actually pay, the lifetime allowance you have left, and what the 6 April 2026 rate change costs you if the deal slips into the next tax year.
             </p>
           </div>
         </div>
@@ -57,12 +57,12 @@ export default function BADRPage() {
             <BADRCalculator />
 
             <div className="mt-12 bg-slate-900 p-8 sm:p-10 text-white">
-              <h2 className="text-2xl font-bold text-white sm:text-3xl">Selling before 6 April 2026?</h2>
+              <h2 className="text-2xl font-bold text-white sm:text-3xl">The 4-point rate jump is closer than it looks</h2>
               <p className="mt-3 text-base sm:text-lg text-slate-200">
-                The BADR rate rises from 14% to 18% on 6 April 2026. If you're planning a sale in the next 18 months, timing matters. We help business owners plan exits to capture the lower rate.
+                On a £1M qualifying gain, completing a day after 6 April 2026 costs another £40,000 versus the same deal completed the day before. We run pre-sale structure reviews for owners considering a 12-to-24-month exit, focused on share structure, qualifying periods and post-tax proceeds.
               </p>
-              <Link href="/free-health-check" className="mt-6 inline-block bg-orange-600 px-8 py-3 font-bold text-white border-b-4 border-orange-800 hover:bg-orange-700 transition-all">
-                Book an exit-timing call
+              <Link href="/contact" className="mt-6 inline-block bg-orange-600 px-8 py-3 font-bold text-white border-b-4 border-orange-800 hover:bg-orange-700 transition-all">
+                Book a pre-sale review
               </Link>
             </div>
           </div>

@@ -91,7 +91,7 @@ export default function CalculatorsIndexPage() {
               Free UK tax calculators for business owners
             </h1>
             <p className="mt-4 text-lg text-slate-300 leading-relaxed">
-              Practical UK tax and finance calculators built by ICAEW qualified accountants. Uses current 2025/26 rates and thresholds. No sign-up.
+              We built these to answer the questions UK business owners actually ask us: what is my real take-home pay, how much salary versus dividend, what does an extra hire cost, and how much CGT will I pay on the exit. All numbers reflect 2025/26 rates and thresholds. No email gate, no sign-up.
             </p>
           </div>
         </div>

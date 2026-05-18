@@ -72,7 +72,7 @@ export default function SalaryDividendCalculatorPage() {
               Salary &amp; Dividend Optimiser
             </h1>
             <p className="mt-4 text-lg text-slate-300 leading-relaxed">
-              Find the most tax-efficient mix of salary and dividends for a UK limited company director. Uses current 2025/26 thresholds and rates.
+              Pay yourself too much salary and you waste personal allowance against National Insurance. Take too much dividend and you push yourself into higher-rate dividend tax. The calculator finds the split that leaves the most money in your pocket at 2025/26 rates, accounting for corporation tax, both flavours of NI, income tax and dividend tax in one pass.
             </p>
           </div>
         </div>
@@ -107,10 +107,10 @@ export default function SalaryDividendCalculatorPage() {
 
             <div className="mt-12 bg-slate-900 p-8 sm:p-10 text-white">
               <h2 className="text-2xl font-bold text-white sm:text-3xl">
-                Want a tailored extraction model for your company?
+                The optimum split changes with the rest of your tax picture
               </h2>
               <p className="mt-3 text-base sm:text-lg text-slate-200 leading-relaxed">
-                Book a free call. We will model your actual position factoring in pensions, other income, retained earnings and your exit timeline.
+                Add a working spouse, a buy-to-let, a student loan, a pension contribution or a planned BADR exit and the answer shifts. We build a personal extraction model for owner-managed companies that accounts for the moving parts, then revisit it each year before March.
               </p>
               <Link
                 href="/contact"
