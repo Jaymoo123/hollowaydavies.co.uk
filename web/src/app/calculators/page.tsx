@@ -23,49 +23,49 @@ const calculators = [
     slug: "salary-dividend-optimiser",
     title: "Salary & Dividend Optimiser",
     description:
-      "Find the most tax-efficient mix of salary and dividends for a UK limited company director. Uses 2025/26 rates and thresholds.",
+      "Stop guessing the split. Drop your profit in and see exactly how much salary versus dividend leaves the most cash in your pocket at 2025/26 rates.",
     available: true,
   },
   {
     slug: "rd-tax-credit-estimator",
     title: "R&D Tax Credit Estimator",
     description:
-      "Directional estimate of your R&D tax credit under HMRC's post-April 2023 merged scheme, including the R&D-intensive enhanced rate.",
+      "Plug in your qualifying spend and see your indicative claim under the merged scheme, plus what the R&D-intensive enhanced rate would unlock if you qualify.",
     available: true,
   },
   {
     slug: "badr-cgt-calculator",
     title: "BADR CGT Calculator",
     description:
-      "Work out your CGT bill on selling a business under Business Asset Disposal Relief. Models the 2025/26 14% rate and 2026/27 18% rate.",
+      "See your post-relief CGT on a business sale, your remaining lifetime allowance, and what the 6 April 2026 rate jump from 14% to 18% costs if you slip into the next tax year.",
     available: true,
   },
   {
     slug: "vat-scheme-comparator",
     title: "VAT Scheme Comparator",
     description:
-      "Compare Standard VAT against the Flat Rate Scheme. Includes the Limited Cost Trader test that catches most service businesses out.",
+      "Most service businesses leave money on the table picking VAT schemes by instinct. Run your numbers and find out whether Flat Rate beats Standard, and whether Limited Cost Trader forces you to 16.5%.",
     available: true,
   },
   {
     slug: "pension-contribution-optimiser",
     title: "Pension Contribution Optimiser",
     description:
-      "Model employer pension contributions from your limited company. Corp tax saving, real cost, and the advantage over taking it as a dividend.",
+      "For owner-managed Ltds, pension is usually the cheapest way out of retained profit. See the corporation tax saved, the net cost, and the headroom against the £60,000 annual allowance taper.",
     available: true,
   },
   {
     slug: "take-home-pay-calculator",
     title: "Take-Home Pay Calculator",
     description:
-      "Standard UK PAYE salary calculator. 2025/26 income tax, NI, student loan plans and salary-sacrifice pension. Annual, monthly and weekly net.",
+      "Gross salary in, annual, monthly and weekly net out. Handles 2025/26 income tax bands, employee NI, all four student loan plans and salary-sacrifice pension contributions in one go.",
     available: true,
   },
   {
     slug: "employer-ni-calculator",
     title: "Employer NI & Cost-to-Hire",
     description:
-      "Total annual cost of your team. Employer NI at 15% (2025/26), Employment Allowance and minimum auto-enrolment pension across multiple roles.",
+      "Hiring is never as cheap as the offer letter. See the full annual cost across your payroll with employer NI at 15%, the Employment Allowance offset, and the 3% pension contribution on qualifying earnings.",
     available: true,
   },
 ];
